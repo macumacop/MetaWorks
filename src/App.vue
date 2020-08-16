@@ -37,7 +37,9 @@
           <router-link to="/about">
           <li>About Us</li>
           </router-link>
+          <router-link to="/prueba">
           <li>Services</li>
+          </router-link>
           <li>Project Work</li>
           <li>FAQS</li>
           <li>Contact Us</li>
@@ -48,7 +50,18 @@
     <v-main class="contenedorrutas">
       <router-view></router-view>
     </v-main>
-  
+  <v-footer class="footer">
+  <v-row>
+    <v-col md="6" sm="12">
+      <span class="derechos-reserva">All right reserved 2020 FBMetalWork.com</span>
+    </v-col>
+    <v-col md="6" sm="12">
+      <v-img class="imagenesFooter" src="@/assets/img/cwb-1@2x.png"></v-img>
+      <v-img class="imagenesFooter" src="@/assets/img/tssa-1@2x.png"></v-img>
+      <v-icon color="white"> mdi-android </v-icon>
+    </v-col>
+  </v-row>
+  </v-footer>
   </v-app>
 </template>
 
@@ -68,6 +81,10 @@ export default {
 };
 </script>
 <style>
+*{
+  padding: 0;
+  margin: 0 ;
+}
 .contenedorrutas{
   padding: 0 !important;
   margin-top: 24px;
@@ -76,7 +93,7 @@ export default {
   background: #000 !important;
   color: #fff !important;
   width: 100%;
-  height: 40px;
+  height: 40px !important;
   position: fixed;
   z-index: 10;
 }
@@ -87,7 +104,7 @@ export default {
   margin-left: 50px;
 }
 .toolbarmain{
-  margin-top: 24px !important;
+  margin-top: 40px !important;
 }
 .rutas{
   margin: 0 auto;
@@ -97,5 +114,20 @@ export default {
   list-style: none;
   display: inline-block;
   margin: 10px;
+}
+.footer{
+  background-color: #000 !important;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+}
+.derechos-reserva{
+  color: #fff;
+  
+}
+.imagenesFooter{
+  width: 50px;
+  margin: 0 auto;
+  display: inline-block !important;
 }
 </style>

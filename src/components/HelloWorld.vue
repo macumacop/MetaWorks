@@ -11,31 +11,38 @@
   </v-carousel>
   <div class="contenedor-contenido">
   <v-row>
-    <v-col md="4" sm="6">
-    <v-card class="cardimg">
+    <v-col cols="4">
+    <v-card class="cardimg" flat>
       <v-img contain class="imagenesprueba" src="@/assets/img/Grupo16@2x.png"></v-img>
+      <span>"Ensure quality control of welded products"</span>
     </v-card>
     </v-col>
-    <v-col md="4" sm="6">
-    <v-card class="cardimg">
+    <v-col cols="4">
+    <v-card class="cardimg" flat>
       <v-img contain class="imagenesprueba" src="@/assets/img/Grupo14@2x.png"></v-img>
+      <span>"Ensure quality control of welded products"</span>
     </v-card>
     </v-col>
-    <v-col md="4" sm="6">
-    <v-card class="cardimg">
+    <v-col cols="4">
+    <v-card class="cardimg" flat>
       <v-img contain class="imagenesprueba" src="@/assets/img/Grupo15@2x.png"></v-img>
+      <span>"Ensure quality control of welded products"</span>
     </v-card>
     </v-col>
   </v-row>
   <v-row class="mt-12">
     <v-col cols="6">
-      <h4 class="titulos-home">Titulo Prueba</h4>
-      <router-link to="/prueba">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id necessitatibus quos, perferendis in laudantium quo facere. Repudiandae, amet. Aut corrupti sequi voluptate id repellat, a magnam omnis perferendis et?</p>
-      </router-link>
+      <h4 class="titulos-home">Welcome To Our Website!</h4>
+      <div class="divisor-titulos"></div>
+      <p class="parrafos-home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id necessitatibus quos, perferendis in laudantium quo facere. Repudiandae, amet. Aut corrupti sequi voluptate id repellat, a magnam omnis perferendis et?</p>
+      <h4 class="titulos-home">Welcome To Our Website!</h4>
+      <div class="divisor-titulos"></div>
+      <span class="mas-en-links">+</span><router-link to="#" class="links-home">Structural Steel Erectors</router-link> <br>
+      <span class="mas-en-links">+</span><router-link to="#" class="links-home">Structural Steel Welding</router-link > <br>
+      <span class="mas-en-links">+</span><router-link to="#" class="links-home">Pressure Vessels </router-link> <br>
     </v-col>
     <v-col cols="6">
-      <v-img src="@/assets/img/foto-home@2x.png"></v-img>
+      <v-img class="imagen-home-lateral" src="@/assets/img/foto-home@2x.png"></v-img>
     </v-col>
   </v-row>
   </div>
@@ -47,16 +54,16 @@ export default {
   data: () => ({
     items: [
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+            src: require('@/assets/img/banner@2x.png'),
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+            src: require('@/assets/img/banner@2x.png'),
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+            src: require('@/assets/img/banner@2x.png'),
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+            src: require('@/assets/img/banner@2x.png'),
           },
         ],
   }),
@@ -73,8 +80,11 @@ export default {
   width: 100%;
 }
 .cardimg{
-  width: 250px;
-  height: 250px;
+  text-align: center;
+}
+.cardimg .imagenesprueba{
+  width: 150px;
+  height: 150px;
   margin: 0 auto;
 }
   .carrusel{
@@ -83,7 +93,28 @@ export default {
   }
   .titulos-home{
     color: #ffa500;
-    font-size: 16px !important;
+    font-size: 36px !important;
+  }
+  .divisor-titulos{
+    background:#ffa500 !important;
+    height: 4px !important;
+    width: 200px;
+    margin: 10px 0px;
+    border-radius: 5px;
+  }
+  .parrafos-home{
+    font-size: 20px;
+  }
+  .imagen-home-lateral{
+    margin: 0 auto;
+    width: 80%;
+  }
+  .mas-en-links{
+    color: #ffa500;
+  }
+  .links-home{
+    text-decoration: none;
+    color: #000 !important;
   }
 @media (max-width: 1050px) {
   .contenedor-contenido{
