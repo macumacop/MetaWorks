@@ -10,8 +10,8 @@
       <span>7:30 - 9:30</span>
       </div>
       <v-spacer></v-spacer>
-      <i class="fa fa-facebook mr-2" ></i>
-      <span class="mr-12"> Facebook</span>
+      <span class="mr-2"> Facebook</span>
+      <i class="fa fa-facebook mr-12"></i>
     </v-system-bar>
     <v-app-bar
     class="toolbarmain"
@@ -48,7 +48,7 @@
 
     </v-app-bar>
     <v-main>
-      <router-view  class="contenedorrutas mt-10"></router-view>
+      <router-view class="contenedor-contenido contenedorrutas mt-10"></router-view>
     </v-main>
   <v-footer class="footer">
   <v-row>
@@ -81,53 +81,6 @@ export default {
 };
 </script>
 <style>
-*{
-  padding: 0;
-  margin: 0 ;
-}
-.contenedorrutas{
-  padding: 0 !important;
-  margin-top: 24px;
-}
-.sistembar{
-  background: #000 !important;
-  color: #fff !important;
-  width: 100%;
-  height: 40px !important;
-  position: fixed;
-  z-index: 10;
-}
-.sistembar i{
-  color: #fff !important;
-}
-.mainsistem{
-  margin-left: 50px;
-}
-.toolbarmain{
-  margin-top: 40px !important;
-}
-.rutas{
-  margin: 0 auto;
-}
-.rutas li{
-  color: #000;
-  list-style: none;
-  display: inline-block;
-  margin: 10px;
-}
-.footer{
-  background-color: #000 !important;
-  height: 100px;
-  text-align: center;
-  align-items: center;
-}
-.derechos-reserva{
-  color: #fff;
-  
-}
-.imagenesFooter{
-  width: 50px;
-  margin: 0 auto;
-  display: inline-block !important;
-}
+  @import './assets/styles/estilosgenerales.sass';
+
 </style>

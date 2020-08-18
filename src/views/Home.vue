@@ -9,7 +9,7 @@
       :src="item.src"
     ></v-carousel-item>
   </v-carousel>
-  <div class="contenedor-contenido">
+  <div>
   <v-row>
     <v-col cols="4">
     <v-card class="cardimg" flat>
@@ -71,70 +71,3 @@ export default {
 
 }
 </script>
-
-<style>
-.contenedor-contenido{
-  margin: 0px 200px;
-}
-.v-carousel{
-  margin: 0 !important;
-  width: 100%;
-}
-.cardimg{
-  text-align: center;
-}
-.cardimg .imagenesprueba{
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-  .carrusel{
-    height: auto;
-    max-height: 450px;
-  }
-  .titulos-home{
-    color: #ffa500;
-    font-size: 36px !important;
-  }
-  .divisor-titulos{
-    background:#ffa500 !important;
-    height: 4px !important;
-    width: 150px;
-    margin: 10px 0px;
-    border-radius: 5px;
-  }
-  .parrafos-home{
-    font-size: 20px;
-  }
-  .imagen-home-lateral{
-    margin: 0 auto;
-    width: 80%;
-  }
-  .mas-en-links{
-    color: #ffa500;
-  }
-  .links-home{
-    text-decoration: none;
-    color: #000 !important;
-  }
-  .bottom-call{
-    width: 150px !important;
-    height: 50px !important;
-    background: #0fa515 !important;
-    color: #fff !important;
-  }
-@media (max-width: 1050px) {
-  .contenedor-contenido{
-  margin: 0px;
-  }
-  .carrusel{
-    height: 100% !important;    /* height: 300px !important; */
-  }
-  .cardimg{
-    width: 80%;
-    height: 100%;
-    margin: 40px auto;
-}
-}
-
-</style>

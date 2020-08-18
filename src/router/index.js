@@ -18,7 +18,7 @@ Vue.use(VueRouter)
   {
     path: '/prueba',
     name: 'prueba',
-    component: () => import( '../views/prueba.vue')
+    component: () => import( '../views/Services.vue')
   }
 ]
 
