@@ -2,16 +2,16 @@
   <v-app>
     <v-system-bar class="sistembar">
       <div class="mainsistem">
-      <v-icon>mdi-signal-cellular-outline</v-icon>
-      <span>direcccion</span>
-       <v-icon>mdi-signal-cellular-outline</v-icon>
-      <span>e-mail</span>
-       <v-icon>mdi-signal-cellular-outline</v-icon>
-      <span>horario</span>
+      <v-icon class="ml-12">mdi-signal-cellular-outline</v-icon>
+      <span>carrera 13 calle 23</span>
+       <v-icon class="ml-12">mdi-signal-cellular-outline</v-icon>
+      <span>correoprueba@gmail.com</span>
+       <v-icon class="ml-12">mdi-signal-cellular-outline</v-icon>
+      <span>7:30 - 9:30</span>
       </div>
       <v-spacer></v-spacer>
-      <v-icon>mdi-signal-cellular-outline</v-icon>
-      <span>Facebook</span>
+      <i class="fa fa-facebook mr-2" ></i>
+      <span class="mr-12"> Facebook</span>
     </v-system-bar>
     <v-app-bar
     class="toolbarmain"
@@ -47,8 +47,8 @@
       </div>
 
     </v-app-bar>
-    <v-main class="contenedorrutas">
-      <router-view></router-view>
+    <v-main>
+      <router-view  class="contenedorrutas mt-10"></router-view>
     </v-main>
   <v-footer class="footer">
   <v-row>
