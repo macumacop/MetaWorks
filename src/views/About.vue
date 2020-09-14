@@ -32,4 +32,4 @@ export default {
 
 <style>
 
-</style>script
+</style>

@@ -81,6 +81,8 @@ export default {
 };
 </script>
 <style>
-  @import './assets/styles/estilosgenerales.sass';
+  @import './assets/styles/estilosgenerales.scss';
+
+  
 
 </style>
