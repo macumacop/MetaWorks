@@ -59,6 +59,7 @@
       <v-img class="imagenesFooter" src="@/assets/img/cwb-1@2x.png"></v-img>
       <v-img class="imagenesFooter" src="@/assets/img/tssa-1@2x.png"></v-img>
       <v-icon color="white"> mdi-android </v-icon>
+      
     </v-col>
   </v-row>
   </v-footer>
