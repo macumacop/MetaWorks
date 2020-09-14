@@ -14,7 +14,7 @@
     <v-col cols="4">
     <v-card class="cardimg" flat>
       <v-img contain class="imagenesprueba" src="@/assets/img/Grupo16@2x.png"></v-img>
-      <span>"Ensure quality control of welded products"</span>
+      <span>"prueba de Miguel Ensure quality control of welded products"</span>
     </v-card>
     </v-col>
     <v-col cols="4">
