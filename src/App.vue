@@ -53,7 +53,7 @@
   <v-footer class="footer">
   <v-row>
     <v-col md="6" sm="12">
-      <span class="derechos-reserva">All right reserved 2020 FBMetalWork.com</span>
+      <span class="derechos-reserva">All rrrrrright reserved 2020 FBMetalWork.com</span>
     </v-col>
     <v-col md="6" sm="12">
       <v-img class="imagenesFooter" src="@/assets/img/cwb-1@2x.png"></v-img>
