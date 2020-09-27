@@ -19,17 +19,23 @@
       <div class="rutas">
         <ul>
           <router-link to="/">
-          <li>Home</li>
+          <li>HOME</li>
           </router-link>
           <router-link to="/about">
-          <li>About Us</li>
+          <li>ABOUT US</li>
           </router-link>
-          <router-link to="/prueba">
-          <li>Services</li>
+          <router-link to="/Services">
+          <li>SERVICES</li>
           </router-link>
-          <li>Project Work</li>
+          <router-link to="/ProjectWork">
+          <li>PROJECTWORK</li>
+          </router-link>
+          <router-link to="/Faqs">
           <li>FAQS</li>
-          <li>Contact Us</li>
+          </router-link>
+          <router-link to="/ContactUs">
+          <li>CONTACT US</li>
+          </router-link>
         </ul>
       </div>
 

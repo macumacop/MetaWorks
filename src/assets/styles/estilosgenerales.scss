@@ -34,7 +34,23 @@
 }
 .derechos-reserva{
   color: #fff;
-  
+}
+.bgImage{
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background-color: turquoise !important;
+}
+.Form{
+  position: absolute;
+  top: 40px;
+  padding: 0 300px !important;
+  width: 100%;
+}
+.expansionPanel{
+  padding: 0 200px !important;
+  position: absolute !important;
+  top:100px;
 }
 .imagenesFooter{
   width: 50px;
@@ -73,6 +89,9 @@
   .links-home{
     text-decoration: none;
     color: #000 !important;
+  }
+  .next{
+    color: #ffa500;
   }
   .bottom-call{
     width: 150px !important;
