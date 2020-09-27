@@ -1,36 +1,25 @@
 <template>
-  <v-main>
-    <v-carousel
-     class="carrusel"
-     >
+  <v-main class="main">
+    <v-carousel>
     <v-carousel-item
-      v-for="(item,i) in items"
+      v-for="(item,i) in imgBanner"
       :key="i"
       :src="item.src"
     ></v-carousel-item>
   </v-carousel>
-  <div>
+  <div class="contenedorHome">
   <v-row>
-    <v-col cols="4">
+    <v-col cols="4"
+      v-for="(item,i) in imagenesCentrales" 
+      :key="i"
+      flat>
     <v-card class="cardimg" flat>
-      <v-img contain class="imagenesprueba" src="@/assets/img/Grupo16@2x.png"></v-img>
-      <span>"Ensure quality control of welded products"</span>
-    </v-card>
-    </v-col>
-    <v-col cols="4">
-    <v-card class="cardimg" flat>
-      <v-img contain class="imagenesprueba" src="@/assets/img/Grupo14@2x.png"></v-img>
-      <span>"Ensure quality control of welded products"</span>
-    </v-card>
-    </v-col>
-    <v-col cols="4">
-    <v-card class="cardimg" flat>
-      <v-img contain class="imagenesprueba" src="@/assets/img/Grupo15@2x.png"></v-img>
-      <span>"Ensure quality control of welded products"</span>
+      <v-img contain class="imagenesprueba mb-10" :src="item.src"></v-img>
+      <span>{{item.texto}}</span>
     </v-card>
     </v-col>
   </v-row>
-  <v-row class="mt-12">
+  <v-row>
     <v-col cols="6">
       <h4 class="titulos-home">Welcome To Our Website!</h4>
       <div class="divisor-titulos"></div>
@@ -53,7 +42,7 @@
 <script>
 export default {
   data: () => ({
-    items: [
+    imgBanner: [
           {
             src: require('@/assets/img/banner@2x.png'),
           },
@@ -64,7 +53,21 @@ export default {
             src: require('@/assets/img/banner@2x.png'),
           },
           {
-            src: require('@/assets/img/banner@2x.png'),
+            src: require('@/assets/img/banner@2x.png')
+          }
+        ],
+    imagenesCentrales: [
+          {
+            src: require('@/assets/img/Grupo14@2x.png'),
+            texto: "''Ensure quality control of welded products''"
+          },
+          {
+            src: require('@/assets/img/Grupo15@2x.png'),
+            texto: "''Ensure quality control of welded products''"
+          },
+          {
+            src: require('@/assets/img/Grupo16@2x.png'),
+            texto: "''Ensure quality control of welded products''"
           },
         ],
   }),

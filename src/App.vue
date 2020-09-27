@@ -1,25 +1,12 @@
 <template>
   <v-app>
-    <v-system-bar class="sistembar">
-      <div class="mainsistem">
-      <v-icon class="ml-12">mdi-signal-cellular-outline</v-icon>
-      <span>carrera 13 calle 23</span>
-       <v-icon class="ml-12">mdi-signal-cellular-outline</v-icon>
-      <span>correoprueba@gmail.com</span>
-       <v-icon class="ml-12">mdi-signal-cellular-outline</v-icon>
-      <span>7:30 - 9:30</span>
-      </div>
-      <v-spacer></v-spacer>
-      <span class="mr-2"> Facebook</span>
-      <i class="fa fa-facebook mr-12"></i>
-    </v-system-bar>
     <v-app-bar
-    class="toolbarmain"
       app
       color="#fff"
       dark
+      class="toolbar"
     >
-      <div class="d-flex align-center">
+      <div class="contenedorToolbar">
         <v-img
           alt="Vuetify Logo"
           class="shrink mr-2"
@@ -48,7 +35,7 @@
 
     </v-app-bar>
     <v-main>
-      <router-view class="contenedor-contenido contenedorrutas mt-10"></router-view>
+      <router-view></router-view>
     </v-main>
   <v-footer class="footer">
   <v-row>
