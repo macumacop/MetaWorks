@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="contenedorHome">
     <v-row class="mt-12">
     <v-col cols="6">
       <h4 class="titulos-home">Welcome To Our Website!</h4>
