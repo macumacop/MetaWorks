@@ -2,6 +2,17 @@
   padding: 0;
   margin: 0 ;
 }
+p, span{
+  color: #6D6D6D !important;
+}
+.mw-container{
+  max-width: 1200px;
+  margin: 0 auto !important;
+  align-items: center;
+}
+.mw-container span{
+  font-size: 14px;
+}
 .toolbar{
   height: 75px !important;
 }
@@ -13,6 +24,9 @@
 }
 .contenedorHome{
   padding: 0 200px !important;
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-bottom: 90px;
 }
 .mainsistem{
   margin-left: 50px;
@@ -20,6 +34,43 @@
 .rutas{
   margin: 0 auto;
 }
+/* estilos banner*/
+.carrusel-home, .carrusel-home-imagenes, .carrusel-home-imagenes .v-image {
+  height: auto !important;
+}
+.cont-text-banner{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 150px;
+}
+.cont-text-banner h4, .cont-text-banner h5{
+  text-transform: uppercase;
+}
+.cont-text-banner h4{
+  font-size: 3.8rem;
+}
+.cont-text-banner h5{
+  font-size: 4.2rem;
+}
+.cont-text-banner a{
+  color: #ffffff !important;
+  text-decoration: none;
+}
+.cont-text-banner a i{
+  padding-left: 10px;
+}
+/* estilos banner*/
+/* imagenes centrales home*/
+.img-centrales-home{
+  margin-top: 90px;
+}
+/* imagenes centrales home*/
+/*contenido home*/
+.home-intro{
+  margin-top: 90px;
+}
+/*contenido home*/
 .rutas li{
   color: #000;
   list-style: none;
@@ -28,9 +79,17 @@
 }
 .footer{
   background-color: #000 !important;
-  height: 100px;
+  height: 125px;
   text-align: center;
   align-items: center;
+}
+.text-footer span{
+  padding: 0 20px;
+  color: #ffffff !important;
+}
+.text-footer .imagenesFooter{
+  padding: 0px 10px;
+  width: 75px;
 }
 .derechos-reserva{
   color: #fff;
@@ -84,7 +143,12 @@
     width: 80%;
   }
   .mas-en-links{
-    color: #ffa500;
+    color: #ffa500 !important;
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 10px;
+    position: relative;
+    bottom: -2px;
   }
   .links-home{
     text-decoration: none;
@@ -94,11 +158,15 @@
     color: #ffa500;
   }
   .bottom-call{
-    width: 150px !important;
+    width: 250px !important;
     height: 50px !important;
-    background: #0fa515 !important;
-    color: #fff !important;
+    background: #75B800 !important;
+    margin-top: 90px !important;
   }
+  .bottom-call span{
+    color: #ffffff !important;
+  }
+
 @media (max-width: 1050px) {
   .contenedor-contenido{
   margin: 0px;

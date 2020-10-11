@@ -1,15 +1,22 @@
 <template>
   <v-main class="main">
-    <v-carousel>
+    <v-carousel class="carrusel-home">
     <v-carousel-item
       v-for="(item,i) in imgBanner"
       :key="i"
       :src="item.src"
-    ></v-carousel-item>
+      class="carrusel-home-imagenes"
+    >
+    <div class="cont-text-banner">
+      <h4>{{item.texto}}</h4>
+      <h5>{{item.texto2}}</h5>
+      <a :href="item.linkHome">Read more <i class="fas fa-arrow-circle-right"></i></a>
+    </div>
+    </v-carousel-item>
   </v-carousel>
   <div class="contenedorHome">
   <v-row>
-    <v-col cols="4"
+    <v-col cols="4" class="img-centrales-home"
       v-for="(item,i) in imagenesCentrales" 
       :key="i"
       flat>
@@ -19,17 +26,17 @@
     </v-card>
     </v-col>
   </v-row>
-  <v-row>
+  <v-row class="home-intro">
     <v-col cols="6">
       <h4 class="titulos-home">Welcome To Our Website!</h4>
       <div class="divisor-titulos"></div>
       <p class="parrafos-home" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id necessitatibus quos, perferendis in laudantium quo facere. Repudiandae, amet. Aut corrupti sequi voluptate id repellat, a magnam omnis perferendis et?</p>
-      <h4 class="titulos-home">Welcome To Our Website!</h4>
+      <h4 class="titulos-home">Our Specialisation</h4>
       <div class="divisor-titulos"></div>
       <span class="mas-en-links">+</span><router-link to="#" class="links-home">Structural Steel Erectors</router-link> <br>
       <span class="mas-en-links">+</span><router-link to="#" class="links-home">Structural Steel Welding</router-link > <br>
       <span class="mas-en-links">+</span><router-link to="#" class="links-home">Pressure Vessels </router-link> <br>
-      <v-btn class="bottom-call mt-4"><i class="fas fa-phone"></i> Call Now</v-btn>
+      <v-btn class="bottom-call mt-4"><i class="fas fa-phone mr-2"></i> Call Now</v-btn>
     </v-col>
     <v-col cols="6">
       <v-img class="imagen-home-lateral" src="@/assets/img/foto-home@2x.png"></v-img>
@@ -44,10 +51,14 @@ export default {
   data: () => ({
     imgBanner: [
           {
-            src: require('@/assets/img/banner@2x.png'),
+            src: require('@/assets/img/banner.png'),
+            texto: "Strong structure",
+            texto2: "Safe instalation",
+            linkHome: "https://www.youtube.com/watch?v=ihh3B4ztESg" 
           },
           {
             src: require('@/assets/img/banner@2x.png'),
+            texto: "hola mundo 2"
           },
           {
             src: require('@/assets/img/banner@2x.png'),

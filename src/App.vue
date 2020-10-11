@@ -44,16 +44,23 @@
       <router-view></router-view>
     </v-main>
   <v-footer class="footer">
-  <v-row>
-    <v-col md="6" sm="12">
-      <span class="derechos-reserva">All rrrrrright reserved 2020 FBMetalWork.com</span>
-    </v-col>
-    <v-col md="6" sm="12">
-      <v-img class="imagenesFooter" src="@/assets/img/cwb-1@2x.png"></v-img>
-      <v-img class="imagenesFooter" src="@/assets/img/tssa-1@2x.png"></v-img>
-      <v-icon color="white"> mdi-android </v-icon>
-      
-    </v-col>
+  <v-row class="mw-container">
+    <div class="text-footer">
+      <span class="derechos-reserva">All rights reserved © 2020 FBMetalWork.com</span>
+    </div>
+    <div class="text-footer">
+      <span class="derechos-reserva"><i class="fas fa-map-marker-alt mr-1"></i> 96 Bradwick Dr., Unit 3 Vaughan</span>
+    </div>
+    <div class="text-footer">
+      <span class="derechos-reserva"><i class="fas fa-envelope mr-1"></i> fbmetalworks@outlook.com</span>
+    </div>
+    <div class="text-footer">
+      <img class="imagenesFooter" src="@/assets/img/cwb-1@2x.png"/>
+      <img class="imagenesFooter" src="@/assets/img/tssa-1@2x.png"/>
+    </div>
+    <div class="text-footer">
+      <span class="derechos-reserva">Follow us on <i class="fab fa-facebook ml-1"></i></span>
+    </div>
   </v-row>
   </v-footer>
   </v-app>
