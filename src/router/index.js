@@ -33,6 +33,26 @@ Vue.use(VueRouter)
     path: '/ContactUs',
     name: 'ContactUs',
     component: () => import( '../views/ContactUs.vue')
+  },
+  {
+    path: '/Services/SteelErectors',
+    name: 'SteelErectors',
+    component: () => import( '../views/SteelErectors.vue')
+  },
+  {
+    path: '/Services/Reinforcement',
+    name: 'Reinforcement',
+    component: () => import( '../views/Reinforcement.vue')
+  },
+  {
+    path: '/Services/SteelWelding',
+    name: 'SteelWelding',
+    component: () => import( '../views/SteelWelding.vue')
+  },
+  {
+    path: '/Services/Pressure',
+    name: 'Pressure',
+    component: () => import( '../views/Pressure.vue')
   }
 ]
 

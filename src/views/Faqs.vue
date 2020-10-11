@@ -3,7 +3,6 @@
         <div class="contenedorHome mt-12">
         <h4 class="titulos-home">OUR PROJECTS</h4>
         <div class="divisor-titulos"></div>
-    </div>
     <div class="bgImage">
         <v-expansion-panels elevation="0" flat class="expansionPanel">
             <v-expansion-panel
@@ -22,6 +21,7 @@
             </v-expansion-panel>
         </v-expansion-panels>
     </div>
+  </div>
 </v-main>
 </template>
 <script>
