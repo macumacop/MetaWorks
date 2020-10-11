@@ -1,57 +1,41 @@
 <template>
-    <div>
-        <v-carousel
-     class="carrusel"
-     >
-    <v-carousel-item
-      v-for="(item,i) in items"
-      :key="i"
-      :src="item.src"
-    ></v-carousel-item>
-  </v-carousel>
-  <v-row>
-    <v-col md="6" sm="12">
-      <v-img src="@/assets/img/Mesadetrabajo2 copia4@2x.png"></v-img>
-      <h4>Structural Steel Erectors</h4>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere modi recusandae tempore vitae sit nam atque beatae molestiae</p>
-      <v-btn>More +</v-btn>
-    </v-col>
-    <v-col md="6" sm="12">
-      <v-img src="@/assets/img/Mesadetrabajo2 copia4@2x.png"></v-img>
-      <h4>Structural Steel Erectors</h4>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere modi recusandae tempore vitae sit nam atque beatae molestiae</p>
-      <v-btn>More +</v-btn>
-    </v-col>
-    <v-col md="6" sm="12">
-      <v-img src="@/assets/img/Mesadetrabajo2 copia4@2x.png"></v-img>
-      <h4>Structural Steel Erectors</h4>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere modi recusandae tempore vitae sit nam atque beatae molestiae</p>
-      <v-btn>More +</v-btn>
-    </v-col>
-    <v-col md="6" sm="12">
-      <v-img src="@/assets/img/Mesadetrabajo2 copia4@2x.png"></v-img>
-      <h4>Structural Steel Erectors</h4>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere modi recusandae tempore vitae sit nam atque beatae molestiae</p>
+<v-main class="main">
+  <v-img src="@/assets/img/banner@2x.png"></v-img>
+  <div class="contenedorHome">
+  <v-row class="mt-12">
+    <v-col v-for="(item, i) in items" :key="i" md="4" sm="12">
+      <v-img :src="item"></v-img>
+      <h4>{{item.Nombre}}</h4>
+      <p>{{item.Descripcion}}</p>
       <v-btn>More +</v-btn>
     </v-col>
   </v-row>
     </div>
+    </v-main>
 </template>
-<script>
+<script class="main">
 export default {
   data: () => ({
     items: [
           {
-            src: require('@/assets/img/banner@2x.png'),
+            src: require('@/assets/Services/Other-Steel-Work-Projects-209.jpg'),
+            Nombre:"Structural Steel Erectors",
+            Descripcion:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere modi recusandae tempore vitae sit nam atque beatae molestiae"
           },
           {
-            src: require('@/assets/img/banner@2x.png'),
+            src: require('@/assets/Services/Other-Steel-Work-Projects-150.jpg'),
+            Nombre:"Structural Steel Erectors",
+            Descripcion:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere modi recusandae tempore vitae sit nam atque beatae molestia"
           },
           {
-            src: require('@/assets/img/banner@2x.png'),
+            src: require('@/assets/Services/Other-Steel-Work-Projects-058.jpg'),
+            Nombre:"Structural Steel Erectors",
+            Descripcion:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere modi recusandae tempore vitae sit nam atque beatae molestia"
           },
           {
-            src: require('@/assets/img/banner@2x.png'),
+            src: require('@/assets/Services/Other-Steel-Work-Projects-114.jpg'),
+            Nombre:"Structural Steel Erectors",
+            Descripcion:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere modi recusandae tempore vitae sit nam atque beatae molestia"
           },
         ],
   }),
