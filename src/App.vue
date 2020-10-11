@@ -7,16 +7,20 @@
       class="toolbar"
     >
       <div class="contenedorToolbar">
-        <v-img
+        <div class="logo-menu">
+        <img
           alt="Vuetify Logo"
           class="shrink mr-2"
           contain
-          src="./assets/Logo-brand.jpg"
+          src="./assets/img/LOGO-METAL-WORKS.png"
           transition="scale-transition"
-          width="150"
         />
+        </div>
       </div>
       <div class="rutas">
+        <div class="menu-responsive">
+          <i class="fas fa-bars"></i>
+        </div>
         <ul>
           <router-link to="/">
           <li>HOME</li>
