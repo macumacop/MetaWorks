@@ -5,6 +5,9 @@
 p, span{
   color: #6D6D6D !important;
 }
+.row{
+  margin: 0px !important;
+}
 .mw-container{
   max-width: 1200px;
   margin: 0 auto !important;
@@ -23,8 +26,7 @@ p, span{
   padding: 12px 0 !important;
 }
 .contenedorHome{
-  padding: 0 200px !important;
-  max-width: 1600px;
+  max-width: 1400px;
   margin: 0 auto;
   margin-bottom: 90px;
 }
@@ -96,22 +98,22 @@ p, span{
 }
 .bgImage{
   width: 100%;
-  height: 600px;
-  position: relative;
-  background-color: turquoise !important;
-}
-.Form{
-  position: absolute;
-  top: 40px;
-  padding: 0 300px !important;
-  width: 100%;
+  background-image: url('../ContactUs/Grupo42.png');
+  background-position: center;
+  padding: 60px 0px;
 }
 .expansionPanel{
   padding: 0 200px !important;
-  position: absolute !important;
-  top:100px;
 }
-.imagenesFooter{
+.v-expansion-panel-header__icon i{
+  color: #fff !important;
+}
+.expansionpanel-tittle{
+  border-bottom: 10px red !important;
+  color: #fff !important;
+  background: transparent !important;
+}
+  .imagenesFooter{
   width: 50px;
   margin: 0 auto;
   display: inline-block !important;
@@ -168,6 +170,10 @@ p, span{
   }
 
 @media (max-width: 1050px) {
+  .expansionPanel{
+    padding: 20px !important;
+    top: 0px;
+  }
   .contenedor-contenido{
   margin: 0px;
   }
