@@ -6,7 +6,15 @@ p, span{
   color: #6D6D6D !important;
 }
 .row{
-  margin: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.logo-menu{
+  max-width: 340px;
+  min-width: 200px;
+}
+.logo-menu img{
+  width: 100%;
 }
 .mw-container{
   max-width: 1200px;
@@ -16,8 +24,8 @@ p, span{
 .mw-container span{
   font-size: 14px;
 }
-.toolbar{
-  height: 75px !important;
+.toolbar, .toolbar .v-toolbar__content{
+  height: 90px !important;
 }
 .contenedorToolbar{
   margin: auto;
@@ -29,6 +37,9 @@ p, span{
   max-width: 1400px;
   margin: 0 auto;
   margin-bottom: 90px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .mainsistem{
   margin-left: 50px;
@@ -41,26 +52,44 @@ p, span{
   height: auto !important;
 }
 .cont-text-banner{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 150px;
+  position: relative;
+  top: 180px;
 }
 .cont-text-banner h4, .cont-text-banner h5{
   text-transform: uppercase;
 }
 .cont-text-banner h4{
-  font-size: 3.8rem;
+  font-size: calc(1em + 3.5vw);
 }
 .cont-text-banner h5{
-  font-size: 4.2rem;
+  font-size: calc(1.3em + 3.7vw);
 }
 .cont-text-banner a{
   color: #ffffff !important;
   text-decoration: none;
 }
+.cont-text-banner a:hover{
+  color: #FFAA00 !important;
+}
 .cont-text-banner a i{
   padding-left: 10px;
+}
+.v-carousel__controls{
+  width: 200px !important;
+  right: 0px !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  height: auto !important;
+}
+.v-carousel__controls .v-btn{
+  display: block !important;
+}
+.v-carousel__controls .v-btn:before{
+  content: "hola" !important;
+  background-color: transparent !important;
+}
+.v-item--active .mdi-circle::before{
+  content: "-";
 }
 /* estilos banner*/
 /* imagenes centrales home*/
@@ -73,6 +102,11 @@ p, span{
   margin-top: 90px;
 }
 /*contenido home*/
+.rutas .router-link-exact-active li{
+  color: #FFAA00 !important;
+  border-bottom: 2px solid  #FFAA00;
+  padding-bottom: 4px;
+}
 .rutas li{
   color: #000;
   list-style: none;
@@ -81,7 +115,7 @@ p, span{
 }
 .footer{
   background-color: #000 !important;
-  height: 125px;
+  padding: 20px 10px !important;
   text-align: center;
   align-items: center;
 }
@@ -187,7 +221,20 @@ display: inline-block !important;
   .bottom-call span{
     color: #ffffff !important;
   }
+  .menu-responsive{
+    color: #ffa500;
+    font-size: 1.5rem;
+    display: none;
+    padding: 10px 20px;
+  }
 
+
+@media screen and (max-width: 1500px) {  
+  .cont-text-banner{
+    top: 100px;
+    left: 80px;
+  }
+}
 @media (max-width: 1050px) {
   .expansionPanel{
     padding: 20px !important;
@@ -204,4 +251,26 @@ display: inline-block !important;
     height: 100%;
     margin: 40px auto;
 }
+}
+@media screen and (max-width: 960px) {
+  .rutas li{
+    display: none;
+  }
+  .menu-responsive{
+    display: block;
+    padding-right: 5px;
+  }
+  .cont-text-banner{
+    top: 50px;
+    left: 80px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .cont-text-banner{
+    left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+
 }
