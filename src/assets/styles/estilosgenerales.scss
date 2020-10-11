@@ -39,7 +39,6 @@
   width: 100%;
   height: 600px;
   position: relative;
-  background-color: turquoise !important;
 }
 .Form{
   position: absolute;
@@ -52,7 +51,15 @@
   position: absolute !important;
   top:100px;
 }
-.imagenesFooter{
+.v-expansion-panel-header__icon i{
+  color: #fff !important;
+}
+.expansionpanel-tittle{
+  border-bottom: 10px red !important;
+  color: #fff !important;
+  background: transparent !important;
+}
+  .imagenesFooter{
   width: 50px;
   margin: 0 auto;
   display: inline-block !important;

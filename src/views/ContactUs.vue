@@ -5,7 +5,7 @@
         <div class="divisor-titulos"></div>
     </div>
     <div class="bgImage">
-        <!-- <v-img  contain src="@/assets/img/banner@2x.png"></v-img> -->
+        <v-img  contain src="@/assets/ContactUs/Grupo42.png"></v-img>
         <div class="Form">
         <v-img  height="200px" cover src="@/assets/img/mymaps-desktop-16x9.png"></v-img>
         <v-row>
