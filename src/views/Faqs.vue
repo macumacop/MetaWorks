@@ -5,7 +5,6 @@
         <div class="divisor-titulos"></div>
     </div>
     <div class="bgImage">
-        <v-img  contain src="@/assets/ContactUs/Grupo42.png"></v-img>
         <v-expansion-panels elevation="0" flat class="expansionPanel">
             <v-expansion-panel
             elevation="0"

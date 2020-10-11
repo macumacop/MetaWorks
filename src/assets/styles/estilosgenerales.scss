@@ -37,19 +37,12 @@
 }
 .bgImage{
   width: 100%;
-  height: 600px;
-  position: relative;
-}
-.Form{
-  position: absolute;
-  top: 40px;
-  padding: 0 300px !important;
-  width: 100%;
+  background-image: url('../ContactUs/Grupo42.png');
+  background-position: center;
+  padding: 60px 0px;
 }
 .expansionPanel{
   padding: 0 200px !important;
-  position: absolute !important;
-  top:100px;
 }
 .v-expansion-panel-header__icon i{
   color: #fff !important;
@@ -107,6 +100,13 @@
     color: #fff !important;
   }
 @media (max-width: 1050px) {
+  .expansionPanel{
+    padding: 20px !important;
+    top: 0px;
+  }
+  .contenedorHome{
+    padding-left: 20px !important;
+  }
   .contenedor-contenido{
   margin: 0px;
   }

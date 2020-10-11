@@ -4,15 +4,15 @@
         <h4 class="titulos-home">Contact Us</h4>
         <div class="divisor-titulos"></div>
     </div>
-    <div class="bgImage">
-        <v-img  contain src="@/assets/ContactUs/Grupo42.png"></v-img>
-        <div class="Form">
-        <v-img  height="200px" cover src="@/assets/img/mymaps-desktop-16x9.png"></v-img>
+    <div class="bgImage pl-12 pr-12"  >
         <v-row>
-          <v-col>
+          <v-col md="12">
+            <v-img  height="200px" cover src="@/assets/img/mymaps-desktop-16x9.png"></v-img>
+          </v-col>
+          <v-col md="6" xs="12" sm="12">
             <h4>Location & conact Details</h4>
           </v-col>
-          <v-col>
+          <v-col md="6" xs="12" sm="12">
             <form>
               <v-text-field
                 v-model="name"
@@ -61,7 +61,6 @@
             </form>
           </v-col>
         </v-row>
-        </div>
     </div>
 </v-main>
 </template>
