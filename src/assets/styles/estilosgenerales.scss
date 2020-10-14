@@ -85,11 +85,9 @@ p, span{
   display: block !important;
 }
 .v-carousel__controls .v-btn:before{
-  content: "hola" !important;
   background-color: transparent !important;
 }
 .v-item--active .mdi-circle::before{
-  content: "-";
 }
 /* estilos banner*/
 /* imagenes centrales home*/
@@ -163,9 +161,6 @@ p, span{
 .buttom-more span{
   color: #fff !important;
 }
-.bg-steel{
-  background-image: url('');
-}
 .imagenesFooter{
 width: 50px;
 margin: 0 auto;
@@ -179,17 +174,35 @@ display: inline-block !important;
   height: 150px;
   margin: 0 auto;
 }
-  .titulos-home{
-    color: #ffa500;
-    font-size: 36px !important;
-  }
-  .divisor-titulos{
-    background:#ffa500 !important;
-    height: 4px !important;
-    width: 150px;
-    margin: 10px 0px;
-    border-radius: 5px;
-  }
+.titulos-home{
+  color: #ffa500;
+  font-size: 36px !important;
+}
+.divisor-titulos{
+  background:#ffa500 !important;
+  height: 4px !important;
+  width: 150px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+.number-banner{
+  height: 40px;
+  width: 40px;
+  float: right;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.number-banner span{
+  color: #000 !important;
+  margin: 0 auto;
+  border: 1px solid blue;
+  position: relative;
+}
   .parrafos-home{
     font-size: 20px;
   }

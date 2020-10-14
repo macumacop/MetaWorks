@@ -1,7 +1,11 @@
 <template>
   <v-main class="main">
     <v-carousel class="carrusel-home"
-    :show-arrows="false">
+    :show-arrows="false"
+    hide-delimiter-background
+    cycle
+    :delimiter-icon="this.numberBanner"
+    >
     <!-- hide-delimiters
     :show-arrows="false" -->
     <v-carousel-item
@@ -54,6 +58,7 @@
 <script>
 export default {
   data: () => ({
+    numberBanner:[1,2,3,4],
     imgBanner: [
           {
             src: require('@/assets/img/banner.png'),
@@ -87,6 +92,5 @@ export default {
           },
         ],
   }),
-
 }
 </script>
