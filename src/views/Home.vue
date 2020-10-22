@@ -4,8 +4,20 @@
     :show-arrows="false"
     hide-delimiter-background
     cycle
-    :delimiter-icon="this.numberBanner"
+    ref="carrouselPrueba"
+    v-model="currentIndex"
+    :value="this.valueCarrousel"
+    hide-delimiters
     >
+    <div
+      class="handler-carrousel"
+      >
+        <span 
+          v-for="(item,i) in imgBanner"
+          :key="i" 
+          @click="goTo(i)"
+          >{{i +1}}</span>
+    </div>
     <!-- hide-delimiters
     :show-arrows="false" -->
     <v-carousel-item
@@ -35,6 +47,7 @@
     </v-card>
     </v-col>
   </v-row>
+  
   <v-row class="home-intro">
     <v-col md="6" sm="12">
       <h4 class="titulos-home">Welcome To Our Website!</h4>
@@ -58,7 +71,8 @@
 <script>
 export default {
   data: () => ({
-    numberBanner:[1,2,3,4],
+    currentIndex: 0,
+    valueCarrousel:3,
     imgBanner: [
           {
             src: require('@/assets/img/banner.png'),
@@ -71,7 +85,7 @@ export default {
             texto: "hola mundo 2"
           },
           {
-            src: require('@/assets/img/banner@2x.png'),
+            src: require('@/assets/img/banner.png')
           },
           {
             src: require('@/assets/img/banner@2x.png')
@@ -92,5 +106,10 @@ export default {
           },
         ],
   }),
+  methods: {
+    goTo(ind){
+      this.currentIndex = ind
+    }
+  }
 }
 </script>
