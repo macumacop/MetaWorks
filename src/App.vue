@@ -44,52 +44,52 @@
           v-model="group"
           active-class="deep-purple--text text--accent-4"
         >
-          <v-list-item>
+          <v-list-item class="cont-menu-mob">
             <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
+              <i class="fas fa-home"></i>
             </v-list-item-icon>
             <v-list-item-title>
-              <router-link to="/">HOME</router-link>
+              <router-link class="menu-mob" to="/">HOME</router-link>
             </v-list-item-title>
           </v-list-item>
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
+              <i class="fas fa-address-card"></i>
             </v-list-item-icon>
             <v-list-item-title>
-              <router-link to="/about">ABOUT US</router-link>
+              <router-link class="menu-mob" to="/about">ABOUT US</router-link>
             </v-list-item-title>
           </v-list-item>
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
+              <i class="fas fa-tasks"></i>
             </v-list-item-icon>
             <v-list-item-title>
-              <router-link to="/Services">SERVICES</router-link>
+              <router-link class="menu-mob" to="/Services">SERVICES</router-link>
             </v-list-item-title>
           </v-list-item>
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
+              <i class="fas fa-briefcase"></i>
             </v-list-item-icon>
             <v-list-item-title>
-              <router-link to="/ProjectWork">PROJECTWORK</router-link>
+              <router-link class="menu-mob" to="/ProjectWork">PROJECTWORK</router-link>
             </v-list-item-title>
           </v-list-item>
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
+              <i class="fas fa-question"></i>
             </v-list-item-icon>
             <v-list-item-title>
-              <router-link to="/Faqs">FAQS</router-link>
+              <router-link class="menu-mob" to="/Faqs">FAQS</router-link>
             </v-list-item-title>
           </v-list-item>
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
+              <i class="far fa-envelope-open"></i>
             </v-list-item-icon>
             <v-list-item-title>
-              <router-link to="/ContactUs">CONTACT US</router-link>
+              <router-link class="menu-mob" to="/ContactUs">CONTACT US</router-link>
             </v-list-item-title>
           </v-list-item>
         </v-list-item-group>

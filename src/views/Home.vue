@@ -25,7 +25,7 @@
   </v-carousel>
   <div class="contenedorHome">
   <v-row>
-    <v-col cols="4" class="img-centrales-home"
+    <v-col class="img-centrales-home"
       v-for="(item,i) in imagenesCentrales" 
       :key="i"
       flat>

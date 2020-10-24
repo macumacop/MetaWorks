@@ -193,7 +193,7 @@ display: inline-block !important;
   background:#ffa500 !important;
   height: 4px !important;
   width: 150px;
-  margin: 10px 0px;
+  margin: 10px 0px 30px 0px;
   border-radius: 5px;
 }
 .number-banner{
@@ -292,8 +292,133 @@ padding-bottom: 30px;
 .txt-blanco{
   color: #ffffff !important;
 }
+.bg-steel{
+  background-image: url("../img/services-int-01-edit.jpg");
+  background-size: contain;
+  background-position: right;
+  margin-bottom: 40px;
+}
+.iconos-lista {
+  list-style: none;
+  padding: 0;
+}
+.iconos-lista li {
+  padding-left: 1.3em;
+}
+.iconos-lista li:before {
+  content: "-"; /* FontAwesome Unicode */
+  display: inline-block;
+  margin-left: -20px;
+  color: #FFAA00;
+  font-weight: bolder;
+  font-size: 2em;
+  padding-right: 4px;
+  position: relative;
+  top: 3px;
+}
 /*Fin estilos servicios*/
+/* Estilos carrusel */
+* {
+  box-sizing: border-box;
+}
 
+/* Position the image container (needed to position the left and right arrows) */
+.container-carrusel {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.vista{
+  display: block;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #FFAA00;
+  padding: 15px 16px;
+}
+#caption{
+  margin-bottom: 0px !important;
+  color: #000 !important;  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.blanco{
+  color: #ffffff !important;
+  font-size: 2em;
+}
+/* Fin estilos carrusel */
+.menu-mob{
+  text-decoration: none;
+  color:#FFAA00 !important;
+}
 @media screen and (max-width: 1500px) {  
   .cont-text-banner{
     top: 100px;
@@ -336,6 +461,21 @@ padding-bottom: 30px;
     width: 100%;
     text-align: center;
   }
-
+  .img-centrales-home{
+    margin-top: 20px;
+    display: contents;
+  }
+  .home-intro{
+    margin-top: 20px;
+  }
+  .titulos-home{
+    font-size: 24px !important;
+  }
+  .parrafos-home{
+    font-size: 16px;
+  }
+  .contenedorHome{
+    margin-bottom: 30px;
+  }
 
 }
