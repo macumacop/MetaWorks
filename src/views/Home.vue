@@ -39,13 +39,13 @@
     <v-col md="6" sm="12">
       <h4 class="titulos-home">Welcome To Our Website!</h4>
       <div class="divisor-titulos"></div>
-      <p class="parrafos-home" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id necessitatibus quos, perferendis in laudantium quo facere. Repudiandae, amet. Aut corrupti sequi voluptate id repellat, a magnam omnis perferendis et?</p>
+      <p class="parrafos-home" >We are a steel erectors company that offers installation, welding and structural steel services for the construction industry. We understand the importance of work safety and quality assurance control, this is why we hand select and help skill train all of our employees and on-site operators to have expert experience in their field of service.</p>
       <h4 class="titulos-home">Our Specialisation</h4>
       <div class="divisor-titulos"></div>
       <span class="mas-en-links">+</span><router-link to="#" class="links-home">Structural Steel Erectors</router-link> <br>
       <span class="mas-en-links">+</span><router-link to="#" class="links-home">Structural Steel Welding</router-link > <br>
       <span class="mas-en-links">+</span><router-link to="#" class="links-home">Pressure Vessels </router-link> <br>
-      <v-btn class="bottom-call mt-4"><i class="fas fa-phone mr-2"></i> Call Now</v-btn>
+      <v-btn class="bottom-call mt-4" to="/ContactUs"><i class="fas fa-phone mr-2"></i> Contact us</v-btn>
     </v-col>
     <v-col md="6" sm="12">
       <v-img class="imagen-home-lateral" src="@/assets/img/foto-home@2x.png"></v-img>
@@ -67,14 +67,11 @@ export default {
             linkHome: "https://www.youtube.com/watch?v=ihh3B4ztESg" 
           },
           {
-            src: require('@/assets/img/banner@2x.png'),
+            src: require('@/assets/img/banner-2.jpg'),
             texto: "hola mundo 2"
           },
           {
-            src: require('@/assets/img/banner@2x.png'),
-          },
-          {
-            src: require('@/assets/img/banner@2x.png')
+            src: require('@/assets/img/banner-3.jpg'),
           }
         ],
     imagenesCentrales: [
@@ -84,11 +81,11 @@ export default {
           },
           {
             src: require('@/assets/img/Grupo15@2x.png'),
-            texto: "''Ensure quality control of welded products''"
+            texto: "''we consistently meet client expectations''"
           },
           {
             src: require('@/assets/img/Grupo16@2x.png'),
-            texto: "''Ensure quality control of welded products''"
+            texto: "''Skilled team with expert experiencie''"
           },
         ],
   }),

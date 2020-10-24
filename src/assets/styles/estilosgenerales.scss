@@ -5,6 +5,9 @@
 p, span{
   color: #6D6D6D !important;
 }
+.imagenes img{
+  width: 100%;
+}
 .row{
   margin-left: 0px !important;
   margin-right: 0px !important;
@@ -133,8 +136,9 @@ p, span{
 .bgImage{
   width: 100%;
   background-image: url('../ContactUs/Grupo42.png');
-  background-position: center;
+  background-size: cover;
   padding: 60px 0px;
+  margin-bottom: 60px;
 }
 .expansionPanel{
   padding: 0 200px !important;
@@ -147,8 +151,13 @@ p, span{
   color: #fff !important;
   background: transparent !important;
 }
-.tittle-form{
+.tittle-form, .tittle-form-2{
   color: #fff !important;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+}
+.tittle-form-2{
+  padding-top: 10px;
 }
 .span-form{
   color: #fff !important;
@@ -184,7 +193,7 @@ display: inline-block !important;
     background:#ffa500 !important;
     height: 4px !important;
     width: 150px;
-    margin: 10px 0px;
+    margin: 10px 0px 30px 0px;
     border-radius: 5px;
   }
   .parrafos-home{
@@ -224,7 +233,33 @@ display: inline-block !important;
     display: none;
     padding: 10px 20px;
   }
-
+/*Estilos servicios*/
+.col-services{
+  padding: 60px !important;
+}
+.cont-img-services{
+padding-bottom: 30px;
+}
+.img-services{
+  width: 100%;
+}
+.cabezote{
+  background-image: url("../img/3109.jpg");
+  background-size: cover;
+  padding: 20px 60px;
+}
+.fondo-negro{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 20px;
+  padding: 30px 0px;
+}
+.fondo-negro .contenedorHome{
+  margin-bottom: 0px !important;
+}
+.txt-blanco{
+  color: #ffffff !important;
+}
+/*Fin estilos servicios*/
 
 @media screen and (max-width: 1500px) {  
   .cont-text-banner{
