@@ -3,7 +3,6 @@
     <v-carousel class="carrusel-home"
     :show-arrows="false"
     hide-delimiter-background
-    cycle
     ref="carrouselPrueba"
     v-model="currentIndex"
     :value="this.valueCarrousel"
@@ -12,11 +11,15 @@
     <div
       class="handler-carrousel"
       >
-        <span 
+      <a 
+          class="banner-router"
           v-for="(item,i) in imgBanner"
           :key="i" 
           @click="goTo(i)"
-          >{{i +1}}</span>
+          >
+        <span 
+          >{{i +1}} <b>-</b></span>
+      </a>
     </div>
     <!-- hide-delimiters
     :show-arrows="false" -->

@@ -185,25 +185,6 @@ display: inline-block !important;
   margin: 10px 0px;
   border-radius: 5px;
 }
-.number-banner{
-  height: 40px;
-  width: 40px;
-  float: right;
-  align-items: center;
-  text-align: center;
-  font-size: 40px;
-  display: flex;
-  margin-right: 20px;
-  display: flex;
-  flex-direction: column-reverse;
-}
-.number-banner span{
-  color: #000 !important;
-  margin: 0 auto;
-  border: 1px solid blue;
-  position: relative;
-  cursor: pointer;
-}
   .parrafos-home{
     font-size: 20px;
   }
@@ -227,11 +208,16 @@ display: inline-block !important;
     right: 20px;
     bottom: 200px;
   }
-  .handler-carrousel span{
+  .handler-carrousel .banner-router{
+    z-index: 1000;
     display: block;
     padding: 10px;
     color: red !important;
     cursor: pointer;
+  }
+  .handler-carrousel .banner-router span:active{   
+    font-size: 50px;
+    color: blue !important;
   }
   .links-home{
     text-decoration: none;
