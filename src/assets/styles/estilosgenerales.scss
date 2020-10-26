@@ -36,6 +36,10 @@ p, span{
 .main{
   padding: 12px 0 !important;
 }
+.imagenesDialog{
+  width: 100%;
+  background-size: contain !important;
+}
 .contenedorHome{
   max-width: 1400px;
   margin: 0 auto;
@@ -77,23 +81,7 @@ p, span{
 .cont-text-banner a i{
   padding-left: 10px;
 }
-.v-carousel__controls{
-  width: 200px !important;
-  right: 0px !important;
-  top: 0px !important;
-  bottom: 0px !important;
-  height: auto !important;
-}
-.v-carousel__controls .v-btn{
-  display: block !important;
-}
-.v-carousel__controls .v-btn:before{
-  content: "hola" !important;
-  background-color: transparent !important;
-}
-.v-item--active .mdi-circle::before{
-  content: "-";
-}
+
 /* estilos banner*/
 /* imagenes centrales home*/
 .img-centrales-home{

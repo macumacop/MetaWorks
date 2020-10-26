@@ -73,7 +73,8 @@
 <script>
 export default {
   data: () => ({
-    numberBanner:[1,2,3,4],
+    currentIndex: 0,
+    valueCarrousel:3,
     imgBanner: [
           {
             src: require('@/assets/img/banner.png'),
@@ -82,11 +83,14 @@ export default {
             linkHome: "https://www.youtube.com/watch?v=ihh3B4ztESg" 
           },
           {
-            src: require('@/assets/img/banner-2.jpg'),
+            src: require('@/assets/img/banner@2x.png'),
             texto: "hola mundo 2"
           },
           {
-            src: require('@/assets/img/banner-3.jpg'),
+            src: require('@/assets/img/banner.png')
+          },
+          {
+            src: require('@/assets/img/banner@2x.png')
           }
         ],
     imagenesCentrales: [
@@ -96,13 +100,18 @@ export default {
           },
           {
             src: require('@/assets/img/Grupo15@2x.png'),
-            texto: "''we consistently meet client expectations''"
+            texto: "''Ensure quality control of welded products''"
           },
           {
             src: require('@/assets/img/Grupo16@2x.png'),
-            texto: "''Skilled team with expert experiencie''"
+            texto: "''Ensure quality control of welded products''"
           },
         ],
   }),
+  methods: {
+    goTo(ind){
+      this.currentIndex = ind
+    }
+  }
 }
 </script>
