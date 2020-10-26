@@ -3,6 +3,7 @@
     <v-app-bar app color="#fff" dark class="toolbar">
       <div class="contenedorToolbar">
         <div class="logo-menu">
+          <router-link class="menu-mob" to="/">
           <img
             alt="Vuetify Logo"
             class="shrink mr-2"
@@ -10,6 +11,7 @@
             src="./assets/img/LOGO-METAL-WORKS.png"
             transition="scale-transition"
           />
+          </router-link>
         </div>
       </div>
       <div class="rutas">
@@ -38,7 +40,7 @@
         </ul>
       </div>
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" absolute temporary>
+    <v-navigation-drawer app v-model="drawer" position="absolute" temporary>
       <v-list nav dense>
         <v-list-item-group
           v-model="group"
@@ -65,7 +67,9 @@
               <i class="fas fa-tasks"></i>
             </v-list-item-icon>
             <v-list-item-title>
-              <router-link class="menu-mob" to="/Services">SERVICES</router-link>
+              <router-link class="menu-mob" to="/Services">
+              SERVICES
+              </router-link>
             </v-list-item-title>
           </v-list-item>
           <v-list-item>

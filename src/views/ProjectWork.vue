@@ -10,8 +10,7 @@
       style="cursor: pointer"
       @click="openDialog(i)"
       class="mt-5">{{item.Nombre}}
-      <i class="fas fa-arrow-circle-right next">
-        </i>
+      <i class="fas fa-arrow-alt-circle-right"></i>
       </h4>
     </v-col>
   </v-row>

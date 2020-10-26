@@ -11,7 +11,7 @@
             FB Metal Work is well known in the industry as a company that consistently meets client expectations and their growing demands for steel erection. Our company can cut and weld steel work for specific projects and our team of enthusiastic individuals are determined to get the job done right the first time. For more information feel free to Contact Us at (416)-990-6531
           </p>
         </div>
-        <div class="col-md-4 imagenes">
+        <div class="imagenes" md="4" sm="12" xs="12">
           <img src="@/assets/img/otros-proyectos.png"/>
         </div>
         </div>
