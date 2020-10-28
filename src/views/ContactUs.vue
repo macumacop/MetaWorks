@@ -7,11 +7,7 @@
     <div class="bgImage">
       <div class="contenedorHome">
         <v-row>
-<<<<<<< HEAD
         <div class="col-md-12 col-xs-12">
-=======
-        <v-col cols="12">
->>>>>>> 698bf4b0f02fd932fd9d3d0bb383d60e61dc906e
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5757.672488219479!2d-79.48735!3d43.817756!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e96b6de35f9%3A0xdef394cb2d47fddf!2s296%20Bradwick%20Dr%2C%20Concord%2C%20ON%20L4K%201K8!5e0!3m2!1ses-419!2sca!4v1602384718864!5m2!1ses-419!2sca"
             width="100%"
@@ -38,7 +34,6 @@
         </div>
         <div class="col-md-7">
           <form>
-<<<<<<< HEAD
           
     <iframe
       id="JotFormIFrame-202935340433045"
@@ -57,24 +52,6 @@
     >
     </iframe>
     
-=======
-          <iframe
-            id="JotFormIFrame-202935340433045"
-            title="Metalworks"
-            onload="window.parent.scrollTo(0,0)"
-            allowtransparency="true"
-            allowfullscreen="true"
-            allow="geolocation; microphone; camera"
-            src="https://form.jotform.com/202935340433045"
-            frameborder="0"
-            style="
-            min-width: 100%;
-            height:539px;
-            border:none;"
-            scrolling="no"
-          >
-          </iframe>
->>>>>>> 698bf4b0f02fd932fd9d3d0bb383d60e61dc906e
           </form>
         </div>
         </v-row>
