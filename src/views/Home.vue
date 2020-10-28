@@ -1,5 +1,6 @@
 <template>
   <v-main class="main">
+    
     <v-carousel class="carrusel-home"
     :show-arrows="false"
     hide-delimiter-background
@@ -12,13 +13,20 @@
       class="handler-carrousel"
       >
       <a 
-          class="banner-router"
           v-for="(item,i) in imgBanner"
+          class="banner-router"
+          :class="{
+            'active' : currentIndex === i
+          }"
           :key="i" 
           @click="goTo(i)"
           >
         <span 
-          >{{i +1}} <b>-</b></span>
+          >{{i +1}} <b         
+            :style="{
+               'display' : currentIndex != i ? 'none' : 'initial'
+              }"
+          >-</b></span>
       </a>
     </div>
     <!-- hide-delimiters
@@ -38,6 +46,7 @@
      </div>
     </v-carousel-item>
   </v-carousel>
+  {{currentIndex}}
   <div class="contenedorHome">
   <v-row>
     <v-col class="img-centrales-home"
