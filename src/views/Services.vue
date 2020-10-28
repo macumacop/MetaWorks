@@ -13,7 +13,7 @@
              For more information feel free to Contact Us at (416)-990-6531
           </p>
         </div>
-        <div class="col-md-4 imagenes">
+        <div class="imagenes" md="4" sm="12" xs="12">
           <img src="@/assets/img/otros-proyectos.png"/>
         </div>
         </div>

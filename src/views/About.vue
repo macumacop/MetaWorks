@@ -1,7 +1,11 @@
 <template>
   <div class="contenedorHome">
     <v-row class="mt-12">
+<<<<<<< HEAD
     <v-col class="col-md-6">
+=======
+    <v-col md="6" xs="12" sm="12">
+>>>>>>> 698bf4b0f02fd932fd9d3d0bb383d60e61dc906e
       <h4 class="titulos-home">Who We Are</h4>
       <div class="divisor-titulos"></div>
       <p class="parrafos-home" ><strong> Metal Work is an important company in the Canadian steel market, responsible for the delivery and installation of steel erectors, pipes, pressure vessels, and structural steel.  We operate in the city of Toronto and have been providing our customers with quality steel workmanship and installation since 2001.</strong></p>
@@ -10,7 +14,11 @@
       <p class="parrafos-home" >FB Metal Work are also active members of the Technical Standards & Safety Authority (TSSA) and Certified by The Canadian Welding Bureau (CWB).</p>
       
     </v-col>
+<<<<<<< HEAD
     <v-col  class="col-md-6">
+=======
+    <v-col md="6" xs="12" sm="12">
+>>>>>>> 698bf4b0f02fd932fd9d3d0bb383d60e61dc906e
       <v-img class="imagen-home-lateral" src="@/assets/img/foto-home@2x.png"></v-img>
     </v-col>
   </v-row>
