@@ -222,8 +222,12 @@ display: inline-block !important;
     text-decoration: none;
     color: #000 !important;
   }
-  .next{
+  .siguiente{
     color: #ffa500;
+    padding-left: 8px;
+  }
+.v-responsive__content:hover .v-image__image--cover{
+    background-size: 110% !important;
   }
   .bottom-call{
     width: 250px !important;
@@ -342,7 +346,9 @@ padding-bottom: 30px;
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
+.v-btn .v-btn__content{
+  color: #ffffff !important;
+}
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -392,6 +398,30 @@ padding-bottom: 30px;
 .menu-mob{
   text-decoration: none;
   color:#FFAA00 !important;
+}
+.imagen-animada{
+  width: 100%;
+  transform: scale(1);
+  transition: transform .2s;
+}
+.imagen-animada:hover{
+  transform: scale(1.1);
+}
+.cont-img{
+  max-height: 264px;
+  overflow: hidden;
+}
+.v-image__image--cover{
+  background-size: contain !important ;
+}
+.v-dialog{
+  box-shadow: inherit !important;
+}
+.v-carousel__controls{
+  background: inherit !important;
+}
+.v-navigation-drawer{
+  position: fixed !important;
 }
 @media screen and (max-width: 1500px) {  
   .cont-text-banner{

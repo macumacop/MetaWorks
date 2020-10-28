@@ -4,24 +4,27 @@
     <h4 class="titulos-home">OUR PROJECTS</h4>
     <div class="divisor-titulos"></div>
   <v-row class="mt-12">
-    <v-col class="mb-5" v-for="(item, i) in items" :key="i" md="4" sm="12">
-      <v-img style="cursor: pointer" @click="openDialog(i)" :src="item"></v-img>
+    <v-col class="mb-5" v-for="(item, i) in items" :key="i" md="4" sm="6" xs="12">
+      <div class="cont-img">
+      <img class="imagen-animada" style="cursor: pointer" @click="openDialog(i)" :src="item.src"/>
+      </div>
       <h4
       style="cursor: pointer"
       @click="openDialog(i)"
       class="mt-5">{{item.Nombre}}
-      <i class="fas fa-arrow-circle-right next">
+      <i class="fas fa-arrow-circle-right siguiente">
         </i>
       </h4>
     </v-col>
   </v-row>
   <v-dialog
     v-model="dialog"
+    max-width="960px"
     >
     <v-carousel >
       <v-carousel-item
-      height="auto"
       width="100%"
+      max-width="960px"
       class="imagenesDialog"
       v-for="(item, i) in fotosDialog" :key="i" :src="item">
       </v-carousel-item>

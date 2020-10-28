@@ -1,20 +1,91 @@
 <template>
-  <div class="contenedorHome">
-    <v-row class="mt-12">
-    <v-col cols="6">
-      <h4 class="titulos-home">Welcome To Our Website!</h4>
-      <div class="divisor-titulos"></div>
-      <p class="parrafos-home" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id necessitatibus quos, perferendis in laudantium quo facere. Repudiandae, amet. Aut corrupti sequi voluptate id repellat, a magnam omnis perferendis et?</p>
-      <p class="parrafos-home" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id necessitatibus quos, perferendis in laudantium quo facere. Repudiandae, amet. Aut corrupti sequi voluptate id repellat, a magnam omnis perferendis et?</p>
-      <p class="parrafos-home" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id necessitatibus quos, perferendis in laudantium quo facere. Repudiandae, amet. Aut corrupti sequi voluptate id repellat, a magnam omnis perferendis et?</p>
-      <p class="parrafos-home" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id necessitatibus quos, perferendis </p>
-      
-    </v-col>
-    <v-col cols="6">
-      <v-img class="imagen-home-lateral" src="@/assets/img/foto-home@2x.png"></v-img>
-    </v-col>
-  </v-row>
-  </div>
+  <v-main class="main">
+    <div class="contenedorHome">
+      <v-row class="mt-12">
+        <div class="bg-steel">
+          <div class="col-md-8">
+            <h4 class="titulos-home">Reinforcement</h4>
+            <div class="divisor-titulos"></div>
+            <p class="parrafos-home">
+              We have been a leading force in the steel construction industry offering bar reinforcement, reinforcing wire mesh, cutting and welding proving a fast installation service int Toronto and surrounding areas.</p>
+              <p class="parrafos-home">
+Our years of experience in the steel industry will help accelerate your construction project – saving you time and money.</p>
+              <p class="parrafos-home">
+Our take pride in having high product quality standards to help meet today’s challenges of shortening project times and pressure.
+            </p>
+          </div>
+        </div>
+      </v-row>
+      <!-- carrusel -->
+      <!-- Container for the image gallery -->
+      <div class="container-carrusel">
+        <!-- Full-width images with number text -->
+        <div class="mySlides vista">
+          <div class="numbertext">1 / 3</div>
+          <img
+            src="@/assets/img/services/reinforcement/Church-Renovation-Project-019.jpg"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 3</div>
+          <img
+            src="@/assets/img/services/reinforcement/Other-Steel-Work-Projects-150.jpg"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 3</div>
+          <img
+            src="@/assets/img/services/reinforcement/Other-Steel-Work-Projects-181.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev blanco" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next blanco" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption">Other steel work projects</p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img
+              class="demo cursor active"
+              src="@/assets/img/services/reinforcement/Church-Renovation-Project-019.jpg"
+              style="width: 100%"
+              onclick="currentSlide(1)"
+              alt="Other steel work projects"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="@/assets/img/services/reinforcement/Other-Steel-Work-Projects-150.jpg"
+              style="width: 100%"
+              onclick="currentSlide(2)"
+              alt="Other steel work projects"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="@/assets/img/services/reinforcement/Other-Steel-Work-Projects-181.jpg"
+              style="width: 100%"
+              onclick="currentSlide(3)"
+              alt="Other steel work projects"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- fin carrusel -->
+    </div>
+  </v-main>
 </template>
 
 

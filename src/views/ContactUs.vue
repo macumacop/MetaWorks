@@ -7,7 +7,7 @@
     <div class="bgImage">
       <div class="contenedorHome">
         <v-row>
-        <v-col md="12">
+        <div class="col-md-12 col-xs-12">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5757.672488219479!2d-79.48735!3d43.817756!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e96b6de35f9%3A0xdef394cb2d47fddf!2s296%20Bradwick%20Dr%2C%20Concord%2C%20ON%20L4K%201K8!5e0!3m2!1ses-419!2sca!4v1602384718864!5m2!1ses-419!2sca"
             width="100%"
@@ -18,8 +18,8 @@
             aria-hidden="false"
             tabindex="0"
           ></iframe>
-        </v-col>
-        <v-col md="6" xs="12" sm="12">
+        </div>
+        <div class="col-md-5">
           <h2 class="tittle-form">Location & conact Details</h2>
           <p class="tittle-form-2">Address:</p>
           <p class="span-form">96 Bradwick Dr., Unit 3 Vaughan, L4K 1k8</p>
@@ -31,8 +31,8 @@
           <p class="span-form">Monday - Friday 7:00 am to 5:00 pm</p>
           <p class="tittle-form-2">Fax:</p>
           <p class="span-form">(905) 761-9461</p>
-        </v-col>
-        <v-col md="6" xs="12" sm="12">
+        </div>
+        <div class="col-md-7">
           <form>
           
     <iframe
@@ -46,14 +46,14 @@
       frameborder="0"
       style="
       min-width: 100%;
-      height:539px;
+      height:600px;
       border:none;"
       scrolling="no"
     >
     </iframe>
     
           </form>
-        </v-col>
+        </div>
         </v-row>
       </div>
     </div>

@@ -15,42 +15,42 @@ Vue.use(VueRouter)
     component: () => import( '../views/About.vue')
   },
   {
-    path: '/Services',
+    path: '/services',
     name: 'Services',
     component: () => import( '../views/Services.vue')
   },
   {
-    path: '/ProjectWork',
+    path: '/project-work',
     name: 'ProjectWork',
     component: () => import( '../views/ProjectWork.vue')
   },
   {
-    path: '/Faqs',
+    path: '/faqs',
     name: 'Faqs',
     component: () => import( '../views/Faqs.vue')
   },
   {
-    path: '/ContactUs',
+    path: '/contact-us',
     name: 'ContactUs',
     component: () => import( '../views/ContactUs.vue')
   },
   {
-    path: '/Services/SteelErectors',
+    path: '/services/steel-erectors',
     name: 'SteelErectors',
     component: () => import( '../views/SteelErectors.vue')
   },
   {
-    path: '/Services/Reinforcement',
+    path: '/services/reinforcement',
     name: 'Reinforcement',
     component: () => import( '../views/Reinforcement.vue')
   },
   {
-    path: '/Services/SteelWelding',
+    path: '/services/steel-welding',
     name: 'SteelWelding',
     component: () => import( '../views/SteelWelding.vue')
   },
   {
-    path: '/Services/Pressure',
+    path: '/services/pressure',
     name: 'Pressure',
     component: () => import( '../views/Pressure.vue')
   }

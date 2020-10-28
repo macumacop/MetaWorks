@@ -23,16 +23,16 @@
           <router-link to="/about">
             <li>ABOUT US</li>
           </router-link>
-          <router-link to="/Services">
+          <router-link to="/services">
             <li>SERVICES</li>
           </router-link>
-          <router-link to="/ProjectWork">
+          <router-link to="/project-work">
             <li>PROJECTWORK</li>
           </router-link>
-          <router-link to="/Faqs">
+          <router-link to="/faqs">
             <li>FAQS</li>
           </router-link>
-          <router-link to="/ContactUs">
+          <router-link to="/contact-us">
             <li>CONTACT US</li>
           </router-link>
         </ul>
@@ -73,7 +73,7 @@
               <i class="fas fa-briefcase"></i>
             </v-list-item-icon>
             <v-list-item-title>
-              <router-link class="menu-mob" to="/ProjectWork">PROJECTWORK</router-link>
+              <router-link class="menu-mob" to="/Project-Work">PROJECTWORK</router-link>
             </v-list-item-title>
           </v-list-item>
           <v-list-item>
@@ -89,7 +89,7 @@
               <i class="far fa-envelope-open"></i>
             </v-list-item-icon>
             <v-list-item-title>
-              <router-link class="menu-mob" to="/ContactUs">CONTACT US</router-link>
+              <router-link class="menu-mob" to="/Contact-us">CONTACT US</router-link>
             </v-list-item-title>
           </v-list-item>
         </v-list-item-group>

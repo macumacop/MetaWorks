@@ -1,20 +1,90 @@
 <template>
-  <div class="contenedorHome">
-    <v-row class="mt-12">
-    <v-col cols="6">
-      <h4 class="titulos-home">Welcome To Our Website!</h4>
-      <div class="divisor-titulos"></div>
-      <p class="parrafos-home" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id necessitatibus quos, perferendis in laudantium quo facere. Repudiandae, amet. Aut corrupti sequi voluptate id repellat, a magnam omnis perferendis et?</p>
-      <p class="parrafos-home" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id necessitatibus quos, perferendis in laudantium quo facere. Repudiandae, amet. Aut corrupti sequi voluptate id repellat, a magnam omnis perferendis et?</p>
-      <p class="parrafos-home" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id necessitatibus quos, perferendis in laudantium quo facere. Repudiandae, amet. Aut corrupti sequi voluptate id repellat, a magnam omnis perferendis et?</p>
-      <p class="parrafos-home" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id necessitatibus quos, perferendis </p>
-      
-    </v-col>
-    <v-col cols="6">
-      <v-img class="imagen-home-lateral" src="@/assets/img/foto-home@2x.png"></v-img>
-    </v-col>
-  </v-row>
-  </div>
+  <v-main class="main">
+    <div class="contenedorHome">
+      <v-row class="mt-12">
+        <div class="bg-steel">
+          <div class="col-md-8">
+            <h4 class="titulos-home">Reinforcement</h4>
+            <div class="divisor-titulos"></div>
+            <p class="parrafos-home">
+              Our qualified staff have the expertise to handle and install pressure vessels accurately.  We are capable of installing vessels in all shapes and sizes and have a long track record of reliable installations for public structures, buildings, etc, because we know our customers need it done right the first time.
+            </p>
+            <p class="parrafos-home">
+              FB Metal Work installs these vessels using some of the best tools available on the market, ensuring the satisfaction of our customers and the growth of our company.
+            </p>
+          </div>
+        </div>
+      </v-row>
+      <!-- carrusel -->
+      <!-- Container for the image gallery -->
+      <div class="container-carrusel">
+        <!-- Full-width images with number text -->
+        <div class="mySlides vista">
+          <div class="numbertext">1 / 3</div>
+          <img
+            src="@/assets/img/services/pressure/Pressure-Vessel-01.jpg"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 3</div>
+          <img
+            src="@/assets/img/services/pressure/Pressure-Vessel-02.jpg"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 3</div>
+          <img
+            src="@/assets/img/services/pressure/Pressure-Vessel-03.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev blanco" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next blanco" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption">Other steel work projects</p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img
+              class="demo cursor active"
+              src="@/assets/img/services/pressure/Pressure-Vessel-01.jpg"
+              style="width: 100%"
+              onclick="currentSlide(1)"
+              alt="Other steel work projects"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="@/assets/img/services/pressure/Pressure-Vessel-02.jpg"
+              style="width: 100%"
+              onclick="currentSlide(2)"
+              alt="Other steel work projects"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="@/assets/img/services/pressure/Pressure-Vessel-03.jpg"
+              style="width: 100%"
+              onclick="currentSlide(3)"
+              alt="Other steel work projects"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- fin carrusel -->
+    </div>
+  </v-main>
 </template>
 
 

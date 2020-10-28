@@ -60,7 +60,7 @@
       <span class="mas-en-links">+</span><router-link to="#" class="links-home">Structural Steel Erectors</router-link> <br>
       <span class="mas-en-links">+</span><router-link to="#" class="links-home">Structural Steel Welding</router-link > <br>
       <span class="mas-en-links">+</span><router-link to="#" class="links-home">Pressure Vessels </router-link> <br>
-      <v-btn class="bottom-call mt-4" to="/ContactUs"><i class="fas fa-phone mr-2"></i> Contact us</v-btn>
+      <v-btn class="bottom-call mt-4" to="/contact-us"><i class="fas fa-phone mr-2"></i> Contact us</v-btn>
     </v-col>
     <v-col md="6" sm="12">
       <v-img class="imagen-home-lateral" src="@/assets/img/foto-home@2x.png"></v-img>
