@@ -35,24 +35,40 @@
           <p class="span-form">(905) 761-9461</p>
         </v-col>
         <v-col md="6">
-          <form>
-          <iframe
-            id="JotFormIFrame-202935340433045"
-            title="Metalworks"
-            onload="window.parent.scrollTo(0,0)"
-            allowtransparency="true"
-            allowfullscreen="true"
-            allow="geolocation; microphone; camera"
-            src="https://form.jotform.com/202935340433045"
-            frameborder="0"
-            style="
-            min-width: 100%;
-            height:539px;
-            border:none;"
-            scrolling="no"
-          >
-          </iframe>
-          </form>
+          <div id="formulario">
+            <form name="contactform" method="post" action="send_form_email.php">
+              <div class="form-group">
+                <label for="first_name">Nombres y apellidos*</label>
+                <input type="text" name="first_name" class="form-control" placeholder="nombre completo">
+              </div>
+              <div class="form-group">
+                <label for="empresa">Empresa*</label>
+                <input type="text" name="empresa" class="form-control">
+              </div>
+              <div class="form-group">
+                <label  for="cumple">Fecha de cumpleaños*</label>
+                <input type="date" name="cumple" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="telephone">Teléfono*</label>
+                <input type="text" name="telephone" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="cel">Celular*</label>
+                <input type="text" name="cel" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail*</label>
+                <input type="text" name="email" class="form-control" placeholder="tucorreo@mail.com">
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" name="terminos"> Acepto términos y condiciones</label>
+              </div>
+              <div class="btn-enviar">
+              <button type="submit" value="Enviar" id="enviar" class="btn btn-default">Enviar</button>
+              </div>
+            </form>
+        </div>
         </v-col>
         </v-row>
     </div>
@@ -60,9 +76,61 @@
   </v-main>
 </template>
 <script>
-export default {
-  data: () => ({
-    
-  }),
-};
+  import { validationMixin } from 'vuelidate'
+  import { required, maxLength, email } from 'vuelidate/lib/validators'
+
+  export default {
+    rules: [v => v.length <= 25 || 'Max 25 characters'],
+    value: 'Comunicanos tus intereses!',
+    mixins: [validationMixin],
+
+    validations: {
+      name: { required, maxLength: maxLength(10) },
+      email: { required, email },
+      select: { required },
+      checkbox: {
+        checked (val) {
+          return val
+        },
+      },
+    },
+
+    data: () => ({
+
+      name: '',
+      email: '',
+      select: null
+    }),
+
+    computed: {
+      nameErrors () {
+        const errors = []
+        if (!this.$v.name.$dirty) return errors
+        !this.$v.name.maxLength && errors.push('Name must be at most 10 characters long')
+        !this.$v.name.required && errors.push('Name is required.')
+        return errors
+      },
+      emailErrors () {
+        const errors = []
+        if (!this.$v.email.$dirty) return errors
+        !this.$v.email.email && errors.push('Must be valid e-mail')
+        !this.$v.email.required && errors.push('E-mail is required')
+        return errors
+      },
+    },
+
+    methods: {
+      submit () {
+        console.log(validationMixin)
+        this.$v.$touch()
+      },
+      clear () {
+        this.$v.$reset()
+        this.name = ''
+        this.email = ''
+        this.select = null
+        this.checkbox = false
+      },
+    },
+  }
 </script>
