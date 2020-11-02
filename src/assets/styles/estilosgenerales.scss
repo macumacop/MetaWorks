@@ -214,7 +214,7 @@ display: inline-block !important;
     color: red !important;
     cursor: pointer;
   }
-  .handler-carrousel .banner-router span:active{   
+  .handler-carrousel .banner-router.active{   
     font-size: 50px;
     color: blue !important;
   }
