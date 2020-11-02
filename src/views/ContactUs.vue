@@ -18,6 +18,8 @@
             aria-hidden="false"
             tabindex="0"
           ></iframe>
+         </div>
+        </v-row>
         </div>
         <div class="col-md-5">
           <h2 class="tittle-form">Location & conact Details</h2>
@@ -54,8 +56,6 @@
     
           </form>
         </div>
-        </v-row>
-      </div>
     </div>
   </v-main>
 </template>
