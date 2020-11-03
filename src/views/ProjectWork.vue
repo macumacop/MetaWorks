@@ -1,12 +1,12 @@
 <template>
 <v-main class="main">
   <div class="contenedorHome mt-12">
-    <h4 class="titulos-home">OUR PROJECTS</h4>
+    <h4 class="titulos-home">PROJECT WORK</h4>
     <div class="divisor-titulos"></div>
   <v-row class="mt-12">
     <v-col class="mb-5" v-for="(item, i) in items" :key="i" md="4" sm="6" xs="12">
       <div class="cont-img">
-      <img class="imagen-animada" style="cursor: pointer" @click="openDialog(i)" :src="item.src"/>
+      <v-img class="imagen-animada cont-img-services" width="100%" style="cursor: pointer" @click="openDialog(i)" :src="item.src"/>
       </div>
       <h4
       style="cursor: pointer"
@@ -50,10 +50,6 @@ export default {
           },
           {
             src: require('@/assets/ProjectWork/Custom-Railings/Custom-Railings-1-07.jpg'),
-            Nombre:"Custom Railings"
-          },
-          {
-            src: require('@/assets/ProjectWork/Custom-Railings2/Custom-Railings-2-09.png'),
             Nombre:"Custom Railings"
           },
           {

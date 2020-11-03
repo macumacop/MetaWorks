@@ -29,7 +29,7 @@
             <li>SERVICES</li>
           </router-link>
           <router-link to="/project-work">
-            <li>PROJECTWORK</li>
+            <li>PROJECT WORK</li>
           </router-link>
           <router-link to="/faqs">
             <li>FAQS</li>
@@ -77,7 +77,7 @@
               <i class="fas fa-briefcase"></i>
             </v-list-item-icon>
             <v-list-item-title>
-              <router-link class="menu-mob" to="/Project-Work">PROJECTWORK</router-link>
+              <router-link class="menu-mob" to="/Project-Work">PROJECT WORK</router-link>
             </v-list-item-title>
           </v-list-item>
           <v-list-item>
@@ -106,13 +106,9 @@
       <v-row class="mw-container">
         <div class="text-footer">
           <span class="derechos-reserva"
-            >All rights reserved © 2020 FBMetalWorks.com</span
-          >
-        </div>
-        <div class="text-footer">
-          <span class="derechos-reserva"
-            ><i class="fas fa-map-marker-alt mr-1"></i> 96 Bradwick Dr., Unit 3
-            Vaughan</span
+            >All rights reserved © 2020<br>
+         <i class="fas fa-map-marker-alt mr-1"></i> 3-96 Braddock Dr. Concord ON 3-96 Brandwick Dr. Concord ON L4K 1K8
+            </span
           >
         </div>
         <div class="text-footer">
@@ -121,8 +117,8 @@
           >
         </div>
         <div class="text-footer">
-          <img class="imagenesFooter" src="@/assets/img/cwb-1@2x.png" />
-          <img class="imagenesFooter" src="@/assets/img/tssa-1@2x.png" />
+          <img class="imagenesFooter" src="@/assets/img/cwb-blanco.png" />
+          <img class="imagenesFooter" src="@/assets/img/tssa-blanco.png" />
         </div>
         <div class="text-footer">
           <span class="derechos-reserva"

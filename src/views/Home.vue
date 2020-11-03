@@ -2,6 +2,7 @@
   <v-main class="main">
     
     <v-carousel class="carrusel-home"
+    cycle
     :show-arrows="false"
     hide-delimiter-background
     ref="carrouselPrueba"
@@ -26,7 +27,7 @@
             :style="{
                'display' : currentIndex != i ? 'none' : 'initial'
               }"
-          >-</b></span>
+          ></b></span>
       </a>
     </div>
     <!-- hide-delimiters
@@ -99,7 +100,7 @@
       <!-- <v-btn class="bottom-call mt-4" to="/contact-us"><i class="fas fa-phone mr-2"></i> Contact us</v-btn> -->
     </v-col>
     <v-col md="6" sm="12">
-      <v-img class="imagen-home-lateral" src="@/assets/img/foto-home@2x.png"></v-img>
+      <v-img class="imagen-home-lateral" src="@/assets/img/foto-home.png"></v-img>
     </v-col>
   </v-row>
   </div>
@@ -113,21 +114,23 @@ export default {
     valueCarrousel:3,
     imgBanner: [
           {
-            src: require('@/assets/img/banner.png'),
+            src: require('@/assets/img/banner-01.png'),
             texto: "Strong structure",
             texto2: "Safe instalation",
-            linkHome: "https://www.youtube.com/watch?v=ihh3B4ztESg" 
+            linkHome: "/services" 
           },
           {
-            src: require('@/assets/img/banner@2x.png'),
-            texto: "hola mundo 2"
+            src: require('@/assets/img/banner-02.png'),
+            texto: "About Us",
+            texto2: "",
+            linkHome: "/about"
           },
           {
-            src: require('@/assets/img/banner.png')
-          },
-          {
-            src: require('@/assets/img/banner@2x.png')
-          }
+            src: require('@/assets/img/banner-03.png'),
+            texto: "Contact US",
+            texto2: "",
+            linkHome: "/contact-us"
+          }         
         ],
     imagenesCentrales: [
           {
@@ -136,7 +139,7 @@ export default {
           },
           {
             src: require('@/assets/img/Grupo15@2x.png'),
-            texto: "''we consistently meet client expectations''"
+            texto: "''We consistently meet client expectations''"
           },
           {
             src: require('@/assets/img/Grupo16@2x.png'),

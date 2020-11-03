@@ -11,7 +11,7 @@
       
     </v-col>
     <v-col md="6" xs="12" sm="12">
-      <v-img class="imagen-home-lateral" src="@/assets/img/foto-home@2x.png"></v-img>
+      <v-img class="imagen-home-lateral" src="@/assets/img/foto-home.png"></v-img>
     </v-col>
   </v-row>
   </div>

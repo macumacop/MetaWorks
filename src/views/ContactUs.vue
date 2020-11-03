@@ -24,7 +24,7 @@
         <v-col md="6">
           <h2 class="tittle-form">Location & Contact Details</h2>
           <p class="tittle-form-2">Address:</p>
-          <p class="span-form">96 Bradwick Dr., Unit 3 Vaughan, L4K 1k8</p>
+          <p class="span-form">3-96 Braddock Dr. Concord ON 3-96 Brandwick Dr. Concord ON L4K 1K8</p>
           <p class="tittle-form-2">Phone numbers:</p>
           <p class="span-form">Office: (416) 990-6531</p>
           <p class="tittle-form-2">Fax:</p>
