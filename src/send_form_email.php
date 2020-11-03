@@ -1,5 +1,4 @@
 <meta charset="utf-8"/>
-<link href="css/estilos3.css" rel="stylesheet" type="text/css">
 <?php
 
 if(isset($_POST['email'])) {
@@ -16,17 +15,8 @@ if(isset($_POST['email'])) {
  
 
     $email_subject = "Formulario Contacto 8BitBackup";
-
- 
-
     function died($error) {
-
- 
-
         // mensajes de error
-
- 
-
         echo "Lo sentimos, hubo un error en sus datos y el formulario no puede ser enviado en este momento.<br /><br />"; 
  
 
@@ -245,7 +235,7 @@ $headers = 'From: '.$email_from."\r\n".
 
 
 <script>
-     window.location.href='http://localhost:8080/';
+     window.location.href='https://fbmetalworks.com/';
  </script>
 
  

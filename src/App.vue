@@ -139,10 +139,21 @@ export default {
   components: {
     // HelloWorld,
   },
+  mounted(){
+    scroll();
+  },
+  methods: { 
+    scrollToTop() {
+    window.scrollTo(0,0);
+    }
+  },
 
   data: () => ({
     drawer: false,
     group: null,
+    routes:[
+      {to: '/', text: 'Home'}
+      ]
   }),
 };
 </script>
