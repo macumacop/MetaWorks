@@ -5,9 +5,6 @@
 p, span{
   color: #6D6D6D !important;
 }
-.imagenes img{
-  width: 100%;
-}
 .row{
   margin-left: 0px !important;
   margin-right: 0px !important;
@@ -191,19 +188,16 @@ display: inline-block !important;
     margin: 0 auto;
     width: 80%;
   }
-  .mas-en-links{
+  .color-panel{
     color: #ffa500 !important;
     font-weight: bold;
     font-size: 24px;
-    padding-right: 10px;
-    position: relative;
-    bottom: -2px;
   }
   .handler-carrousel{
     position: absolute;
     width: 100px;   
     height: 100px;
-    z-index: 1000;
+    z-index: 1;
     right: 20px;
     bottom: 200px;
   }
@@ -250,9 +244,6 @@ display: inline-block !important;
 }
 .cont-img-services{
 padding-bottom: 30px;
-}
-.img-services{
-  width: 100%;
 }
 .cabezote{
   background-image: url("../img/3109.jpg");
@@ -400,7 +391,6 @@ padding-bottom: 30px;
   color:#FFAA00 !important;
 }
 .imagen-animada{
-  width: 100%;
   transform: scale(1);
   transition: transform .2s;
 }

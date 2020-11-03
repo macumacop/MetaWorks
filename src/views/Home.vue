@@ -66,9 +66,36 @@
       <p class="parrafos-home" >We are a steel erectors company that offers installation, welding and structural steel services for the construction industry. We understand the importance of work safety and quality assurance control, this is why we hand select and help skill train all of our employees and on-site operators to have expert experience in their field of service.</p>
       <h4 class="titulos-home">Our Specialisation</h4>
       <div class="divisor-titulos"></div>
-      <span class="mas-en-links">+</span><router-link to="#" class="links-home">Structural Steel Erectors</router-link> <br>
-      <span class="mas-en-links">+</span><router-link to="#" class="links-home">Structural Steel Welding</router-link > <br>
-      <span class="mas-en-links">+</span><router-link to="#" class="links-home">Pressure Vessels </router-link> <br>
+      <v-expansion-panels elevation="0" flat>
+          <v-expansion-panel
+            elevation="0"
+            
+          >
+            <v-expansion-panel-header class="color-panel" elevation="3">
+              + Structural Steel Erectors
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              Our trained team of certified professionals install steel by safety assembling rigging gear to erect and dismantle structural steel frames from buildings and other structures. We conduct all work to the very highest industry and safety standards and assess each job site.
+            </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel>
+            <v-expansion-panel-header class="color-panel" elevation="3">
+              + Structural Steel Welding
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              Certified professional welders at FB Metal Work, ensure quality control of welded products, ease of technical documentation handling, rigid application of welding procedures and technical standards, and monitoring of welders in their daily tasks.
+            </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel>
+            <v-expansion-panel-header class="color-panel" elevation="3">
+              + Pressure Vessels
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              Our qualified staff have the expertise to handle and install pressure vessels accurately. We are capable of installing vessels in all shapes and sizes and have a long track record of reliable installations for public structures, buildings, etc..
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-expansion-panels>
+      
       <v-btn class="bottom-call mt-4" to="/contact-us"><i class="fas fa-phone mr-2"></i> Contact us</v-btn>
     </v-col>
     <v-col md="6" sm="12">
@@ -109,11 +136,11 @@ export default {
           },
           {
             src: require('@/assets/img/Grupo15@2x.png'),
-            texto: "''Ensure quality control of welded products''"
+            texto: "''we consistently meet client expectations''"
           },
           {
             src: require('@/assets/img/Grupo16@2x.png'),
-            texto: "''Ensure quality control of welded products''"
+            texto: "''Skilled team with expert experiencie''"
           },
         ],
   }),

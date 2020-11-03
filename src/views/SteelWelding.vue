@@ -3,7 +3,8 @@
     <div class="contenedorHome">
       <v-row class="mt-12">
         <div class="bg-steel">
-          <div class="col-md-8">
+          <v-col md="4"></v-col>
+          <v-col md="8">
             <h4 class="titulos-home">Structural Steel Erectors</h4>
             <div class="divisor-titulos"></div>
             <p class="parrafos-home">
@@ -29,7 +30,7 @@
               <li>One of the best market delivery times</li>
               <li>Competitive prices</li>
             </ul>
-          </div>
+          </v-col>
         </div>
       </v-row>
       <!-- carrusel -->

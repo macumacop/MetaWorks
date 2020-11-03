@@ -3,8 +3,8 @@
   <div class="cabezote">
     <div class="fondo-negro">
       <div class="contenedorHome">
-        <div class="row">
-        <div class="col-md-8">
+        <v-row>
+        <v-col md="8" sm="12" xs="12">
           <h4 class="titulos-home">Our Company Services</h4>
           <div class="divisor-titulos"></div>
           <p class="txt-blanco">
@@ -12,20 +12,18 @@
             <p class="txt-blanco">
              For more information feel free to Contact Us at (416)-990-6531
           </p>
-        </div>
-        <div class="imagenes" md="4" sm="12" xs="12">
-          <img src="@/assets/img/otros-proyectos.png"/>
-        </div>
-        </div>
+        </v-col>
+        <v-col md="4" sm="12" xs="12">
+          <v-img src="@/assets/img/otros-proyectos.png"/>
+        </v-col>
+        </v-row>
       </div>
     </div>
   </div>
   <div class="contenedorHome">
   <v-row class="mt-12">
-    <v-col v-for="(item, i) in items" :key="i" md="6" sm="12"  xs="12" class="col-services">
-      <div class="cont-img-services">
-        <img class="img-services imagen-animada" :src="item.src" />
-      </div>
+    <v-col v-for="(item, i) in items" :key="i" md="6" sm="12"  xs="12">
+      <v-img class="imagen-animada" :src="item.src" />
       <h4>{{item.Nombre}}</h4>
       <p>{{item.Descripcion}}</p>
       <router-link  class="routes" :to="item.path">
