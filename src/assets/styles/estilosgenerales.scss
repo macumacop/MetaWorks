@@ -193,6 +193,17 @@ display: inline-block !important;
     font-weight: bold;
     font-size: 24px;
   }
+  .cerrar-dialog{
+    cursor: pointer;
+    z-index: 100;
+    font-size: 30px;
+    color: #000;
+    right: 0px;
+    position: absolute;
+  }
+  .color-panel i{
+    color: #ffa500 !important;
+  }
   .handler-carrousel{
     position: absolute;
     width: 100px;   
@@ -201,6 +212,7 @@ display: inline-block !important;
     right: 20px;
     bottom: 200px;
   }
+  
   .handler-carrousel .banner-router{
     z-index: 1000;
     display: block;
@@ -259,6 +271,7 @@ padding-bottom: 30px;
   margin-bottom: 0px !important;
 }
 .txt-blanco{
+  text-align: center;
   color: #ffffff !important;
 }
 .bg-steel{
@@ -391,11 +404,11 @@ padding-bottom: 30px;
   color:#FFAA00 !important;
 }
 .imagen-animada{
-  transform: scale(1);
+  transform: scale(0.95);
   transition: transform .2s;
 }
 .imagen-animada:hover{
-  transform: scale(1.1);
+  transform: scale(1);
 }
 .cont-img{
   max-height: 264px;

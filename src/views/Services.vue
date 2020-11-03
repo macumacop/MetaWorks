@@ -4,18 +4,19 @@
     <div class="fondo-negro">
       <div class="contenedorHome">
         <v-row>
-        <v-col md="8" sm="12" xs="12">
-          <h4 class="titulos-home">Our Company Services</h4>
-          <div class="divisor-titulos"></div>
+        <v-col md="12" sm="12" xs="12">
+          <h4 class="titulos-home"
+          style="text-align: center;"
+          >Our Company Services</h4>
           <p class="txt-blanco">
             FB Metal Work is well known in the industry as a company that consistently meets client expectations and their growing demands for steel erection. Our company can cut and weld steel work for specific projects and our team of enthusiastic individuals are determined to get the job done right the first time.</p>
             <p class="txt-blanco">
              For more information feel free to Contact Us at (416)-990-6531
           </p>
         </v-col>
-        <v-col md="4" sm="12" xs="12">
+        <!-- <v-col md="4" sm="12" xs="12">
           <v-img src="@/assets/img/otros-proyectos.png"/>
-        </v-col>
+        </v-col> -->
         </v-row>
       </div>
     </div>

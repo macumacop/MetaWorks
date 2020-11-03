@@ -106,7 +106,7 @@
       <v-row class="mw-container">
         <div class="text-footer">
           <span class="derechos-reserva"
-            >All rights reserved © 2020 FBMetalWork.com</span
+            >All rights reserved © 2020 FBMetalWorks.com</span
           >
         </div>
         <div class="text-footer">

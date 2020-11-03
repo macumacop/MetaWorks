@@ -64,7 +64,7 @@
       <h4 class="titulos-home">Welcome To Our Website!</h4>
       <div class="divisor-titulos"></div>
       <p class="parrafos-home" >We are a steel erectors company that offers installation, welding and structural steel services for the construction industry. We understand the importance of work safety and quality assurance control, this is why we hand select and help skill train all of our employees and on-site operators to have expert experience in their field of service.</p>
-      <h4 class="titulos-home">Our Specialisation</h4>
+      <h4 class="titulos-home">Our Specialization</h4>
       <div class="divisor-titulos"></div>
       <v-expansion-panels elevation="0" flat>
           <v-expansion-panel
@@ -72,31 +72,31 @@
             
           >
             <v-expansion-panel-header class="color-panel" elevation="3">
-              + Structural Steel Erectors
+             Structural Steel Erectors
             </v-expansion-panel-header>
-            <v-expansion-panel-content>
+            <v-expansion-panel-content class="panel-icon">
               Our trained team of certified professionals install steel by safety assembling rigging gear to erect and dismantle structural steel frames from buildings and other structures. We conduct all work to the very highest industry and safety standards and assess each job site.
             </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel>
             <v-expansion-panel-header class="color-panel" elevation="3">
-              + Structural Steel Welding
+             Structural Steel Welding
             </v-expansion-panel-header>
-            <v-expansion-panel-content>
+            <v-expansion-panel-content class="panel-icon">
               Certified professional welders at FB Metal Work, ensure quality control of welded products, ease of technical documentation handling, rigid application of welding procedures and technical standards, and monitoring of welders in their daily tasks.
             </v-expansion-panel-content>
             </v-expansion-panel>
             <v-expansion-panel>
             <v-expansion-panel-header class="color-panel" elevation="3">
-              + Pressure Vessels
+             Pressure Vessels
             </v-expansion-panel-header>
-            <v-expansion-panel-content>
+            <v-expansion-panel-content class="panel-icon">
               Our qualified staff have the expertise to handle and install pressure vessels accurately. We are capable of installing vessels in all shapes and sizes and have a long track record of reliable installations for public structures, buildings, etc..
             </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
       
-      <v-btn class="bottom-call mt-4" to="/contact-us"><i class="fas fa-phone mr-2"></i> Contact us</v-btn>
+      <!-- <v-btn class="bottom-call mt-4" to="/contact-us"><i class="fas fa-phone mr-2"></i> Contact us</v-btn> -->
     </v-col>
     <v-col md="6" sm="12">
       <v-img class="imagen-home-lateral" src="@/assets/img/foto-home@2x.png"></v-img>

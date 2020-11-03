@@ -5,7 +5,7 @@
         <div class="bg-steel">
           <v-col md="4"></v-col>
           <v-col md="8">
-            <h4 class="titulos-home">Structural Steel Erectors</h4>
+            <h4 class="titulos-home">Structural Steel Welding</h4>
             <div class="divisor-titulos"></div>
             <p class="parrafos-home">
               Certified professional welders at FB Metal Work, ensure quality

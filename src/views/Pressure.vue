@@ -4,7 +4,7 @@
       <v-row class="mt-12">
         <div class="bg-steel">
           <v-col md="8">
-            <h4 class="titulos-home">Reinforcement</h4>
+            <h4 class="titulos-home">Pressure Vessels</h4>
             <div class="divisor-titulos"></div>
             <p class="parrafos-home">
               Our qualified staff have the expertise to handle and install pressure vessels accurately.  We are capable of installing vessels in all shapes and sizes and have a long track record of reliable installations for public structures, buildings, etc, because we know our customers need it done right the first time.
