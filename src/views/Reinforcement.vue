@@ -3,7 +3,7 @@
     <div class="contenedorHome">
       <v-row class="mt-12">
         <div class="bg-steel">
-          <div class="col-md-8">
+          <v-col md="8">
             <h4 class="titulos-home">Reinforcement</h4>
             <div class="divisor-titulos"></div>
             <p class="parrafos-home">
@@ -13,7 +13,8 @@ Our years of experience in the steel industry will help accelerate your construc
               <p class="parrafos-home">
 Our take pride in having high product quality standards to help meet today’s challenges of shortening project times and pressure.
             </p>
-          </div>
+          </v-col>
+          <v-col md="4"></v-col>
         </div>
       </v-row>
       <!-- carrusel -->
@@ -53,8 +54,8 @@ Our take pride in having high product quality standards to help meet today’s c
         </div>
 
         <!-- Thumbnail images -->
-        <div class="row">
-          <div class="column">
+        <v-row>
+          <v-col>
             <img
               class="demo cursor active"
               src="@/assets/img/services/reinforcement/Church-Renovation-Project-019.jpg"
@@ -62,8 +63,8 @@ Our take pride in having high product quality standards to help meet today’s c
               onclick="currentSlide(1)"
               alt="Other steel work projects"
             />
-          </div>
-          <div class="column">
+          </v-col >
+          <v-col>
             <img
               class="demo cursor"
               src="@/assets/img/services/reinforcement/Other-Steel-Work-Projects-150.jpg"
@@ -71,8 +72,8 @@ Our take pride in having high product quality standards to help meet today’s c
               onclick="currentSlide(2)"
               alt="Other steel work projects"
             />
-          </div>
-          <div class="column">
+          </v-col >
+          <v-col>
             <img
               class="demo cursor"
               src="@/assets/img/services/reinforcement/Other-Steel-Work-Projects-181.jpg"
@@ -80,8 +81,8 @@ Our take pride in having high product quality standards to help meet today’s c
               onclick="currentSlide(3)"
               alt="Other steel work projects"
             />
-          </div>
-        </div>
+          </v-col >
+        </v-row>
       </div>
       <!-- fin carrusel -->
     </div>

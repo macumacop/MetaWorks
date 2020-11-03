@@ -3,7 +3,7 @@
     <div class="contenedorHome">
       <v-row class="mt-12">
         <div class="bg-steel">
-          <div class="col-md-8">
+          <v-col md="8">
             <h4 class="titulos-home">Structural Steel Erectors</h4>
             <div class="divisor-titulos"></div>
             <p class="parrafos-home">
@@ -17,8 +17,9 @@
               Removal of any potential hazards prior to the commencement of
               work.
             </p>
-          </div>
-          <div class="col-md-8">
+          </v-col>
+          <v-col md="4"></v-col>  
+          <v-col md="8">
             <h4 class="titulos-home">
               We have erected steel structures for many projects, including:
             </h4>
@@ -46,7 +47,8 @@
                 and hanging safety nets
               </li>
             </ul>
-          </div>
+          </v-col>
+          <v-col md="4"></v-col>
         </div>
       </v-row>
       <!-- carrusel -->
@@ -111,8 +113,8 @@
         </div>
 
         <!-- Thumbnail images -->
-        <div class="row">
-          <div class="column">
+        <v-row>
+          <v-col>
             <img
               class="demo cursor active"
               src="@/assets/img/services/structural/Other-Steel-Work-Projects-028.jpg"
@@ -120,8 +122,8 @@
               onclick="currentSlide(1)"
               alt="Other steel work projects"
             />
-          </div>
-          <div class="column">
+          </v-col>
+          <v-col>
             <img
               class="demo cursor"
               src="@/assets/img/services/structural/Other-Steel-Work-Projects-209.jpg"
@@ -129,8 +131,8 @@
               onclick="currentSlide(2)"
               alt="Other steel work projects"
             />
-          </div>
-          <div class="column">
+          </v-col>
+          <v-col>
             <img
               class="demo cursor"
               src="@/assets/img/services/structural/Other-Steel-Work-Projects-114.jpg"
@@ -138,8 +140,8 @@
               onclick="currentSlide(3)"
               alt="Other steel work projects"
             />
-          </div>
-          <div class="column">
+          </v-col>
+          <v-col>
             <img
               class="demo cursor"
               src="@/assets/img/services/structural/Other-Steel-Work-Projects-126.jpg"
@@ -147,8 +149,8 @@
               onclick="currentSlide(4)"
               alt="Other steel work projects"
             />
-          </div>
-          <div class="column">
+          </v-col>
+          <v-col>
             <img
               class="demo cursor"
               src="@/assets/img/services/structural/Other-Steel-Work-Projects-110.jpg"
@@ -156,8 +158,8 @@
               onclick="currentSlide(5)"
               alt="Other steel work projects"
             />
-          </div>
-          <div class="column">
+          </v-col>
+          <v-col>
             <img
               class="demo cursor"
               src="@/assets/img/services/structural/Other-Steel-Work-Projects-111.jpg"
@@ -165,8 +167,8 @@
               onclick="currentSlide(6)"
               alt="Other steel work projects"
             />
-          </div>
-        </div>
+          </v-col>
+        </v-row>
       </div>
       <!-- fin carrusel -->
     </div>

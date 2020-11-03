@@ -22,6 +22,7 @@
     max-width="960px"
     >
     <v-carousel >
+    <div class="cerrar-dialog" @click="openDialog(i)"><i class="fas fa-times-circle"></i></div>
       <v-carousel-item
       width="100%"
       max-width="960px"
@@ -45,7 +46,7 @@ export default {
           },
           {
             src: require('@/assets/ProjectWork/Church-Renovation-Project/Church-Renovation-Project-013.jpg'),
-            Nombre:"Church RenovationProject"
+            Nombre:"Church Renovation Project"
           },
           {
             src: require('@/assets/ProjectWork/Custom-Railings/Custom-Railings-1-07.jpg'),

@@ -22,17 +22,17 @@
         </v-row>
         <v-row>
         <v-col md="6">
-          <h2 class="tittle-form">Location & conact Details</h2>
+          <h2 class="tittle-form">Location & Contact Details</h2>
           <p class="tittle-form-2">Address:</p>
           <p class="span-form">96 Bradwick Dr., Unit 3 Vaughan, L4K 1k8</p>
           <p class="tittle-form-2">Phone numbers:</p>
           <p class="span-form">Office: (416) 990-6531</p>
-          <p class="tittle-form-2">Email:</p>
-          <p class="span-form">fbmetalworks@outlook.com</p>
-          <p class="tittle-form-2">We are open:</p>
-          <p class="span-form">Monday - Friday 7:00 am to 5:00 pm</p>
           <p class="tittle-form-2">Fax:</p>
           <p class="span-form">(905) 761-9461</p>
+          <p class="tittle-form-2">We are open:</p>
+          <p class="span-form">Monday - Friday 7:00 am to 5:00 pm</p>
+          <p class="tittle-form-2">Email:</p>
+          <p class="span-form">fbmetalworks@outlook.com</p>
         </v-col>
         <v-col md="6">
           <form>

@@ -5,9 +5,6 @@
 p, span{
   color: #6D6D6D !important;
 }
-.imagenes img{
-  width: 100%;
-}
 .row{
   margin-left: 0px !important;
   margin-right: 0px !important;
@@ -191,22 +188,31 @@ display: inline-block !important;
     margin: 0 auto;
     width: 80%;
   }
-  .mas-en-links{
+  .color-panel{
     color: #ffa500 !important;
     font-weight: bold;
     font-size: 24px;
-    padding-right: 10px;
-    position: relative;
-    bottom: -2px;
+  }
+  .cerrar-dialog{
+    cursor: pointer;
+    z-index: 100;
+    font-size: 30px;
+    color: #000;
+    right: 0px;
+    position: absolute;
+  }
+  .color-panel i{
+    color: #ffa500 !important;
   }
   .handler-carrousel{
     position: absolute;
     width: 100px;   
     height: 100px;
-    z-index: 1000;
+    z-index: 1;
     right: 20px;
     bottom: 200px;
   }
+  
   .handler-carrousel .banner-router{
     z-index: 1000;
     display: block;
@@ -251,9 +257,6 @@ display: inline-block !important;
 .cont-img-services{
 padding-bottom: 30px;
 }
-.img-services{
-  width: 100%;
-}
 .cabezote{
   background-image: url("../img/3109.jpg");
   background-size: cover;
@@ -268,6 +271,7 @@ padding-bottom: 30px;
   margin-bottom: 0px !important;
 }
 .txt-blanco{
+  text-align: center;
   color: #ffffff !important;
 }
 .bg-steel{
@@ -400,12 +404,11 @@ padding-bottom: 30px;
   color:#FFAA00 !important;
 }
 .imagen-animada{
-  width: 100%;
-  transform: scale(1);
+  transform: scale(0.95);
   transition: transform .2s;
 }
 .imagen-animada:hover{
-  transform: scale(1.1);
+  transform: scale(1);
 }
 .cont-img{
   max-height: 264px;
