@@ -40,6 +40,7 @@
                 <v-text-field label="Nombres y apellidos*" class="text-input" outlined dense type="text" name="first_name" placeholder=" " />
                 <v-text-field outlined dense label="Celular*" class="text-input" type="text" name="cel" placeholder=" " />
                 <v-text-field outlined dense label="E-mail*" class="text-input" type="text" name="email" placeholder=" " />
+                <v-text-field outlined dense label="Cuentanos" class="text-input" type="text" name="cuentanos" placeholder=" " />
               <v-btn type="submit" value="Enviar" id="enviar" class="success mt-2">Enviar</v-btn>
             </form>
         </div>
