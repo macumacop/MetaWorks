@@ -385,7 +385,12 @@ display: inline-block !important;
   display: table;
   clear: both;
 }
-
+.v-label{
+  color: #fff !important;
+}
+fieldset{
+  border-color: #fff !important;
+}
 /* Six columns side by side */
 .column {
   float: left;
@@ -411,14 +416,14 @@ display: inline-block !important;
   color:#FFAA00 !important;
 }
 .imagen-animada{
-  transform: scale(0.95);
+  transform: scale(1);
   transition: transform .2s;
 }
 .imagen-animada:hover{
-  transform: scale(1);
+  transform: scale(1.1);
 }
 .cont-img{
-  max-height: 264px;
+  max-height: 274px;
   overflow: hidden;
 }
 

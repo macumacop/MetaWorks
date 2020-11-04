@@ -235,7 +235,7 @@ $headers = 'From: '.$email_from."\r\n".
 
 
 <script>
-     window.location.href='https://fbmetalworks.com/';
+     window.location.href='https://fbmetalworks.com/thanks';
  </script>
 
  

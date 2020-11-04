@@ -27,7 +27,7 @@
       <v-img class="imagen-animada" :src="item.src" />
       <h4>{{item.Nombre}}</h4>
       <p>{{item.Descripcion}}</p>
-      <router-link  class="routes" :to="item.path">
+      <router-link  @click.native="scrollToTop" class="routes" :to="item.path">
       <v-btn class="buttom-more" elevation="0">More <i class="fas fa-plus"></i></v-btn>
       </router-link>
     </v-col>
@@ -65,6 +65,10 @@ export default {
           },
         ],
   }),
-
+    methods: { 
+      scrollToTop() {
+      window.scrollTo(0,0);
+      }
+  }
 }
 </script>

@@ -37,36 +37,10 @@
         <v-col md="6">
           <div id="formulario">
             <form name="contactform" method="post" action="send_form_email.php">
-              <div class="form-group">
-                <label for="first_name">Nombres y apellidos*</label>
-                <input type="text" name="first_name" class="form-control" placeholder="nombre completo">
-              </div>
-              <div class="form-group">
-                <label for="empresa">Empresa*</label>
-                <input type="text" name="empresa" class="form-control">
-              </div>
-              <div class="form-group">
-                <label  for="cumple">Fecha de cumpleaños*</label>
-                <input type="date" name="cumple" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="telephone">Teléfono*</label>
-                <input type="text" name="telephone" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="cel">Celular*</label>
-                <input type="text" name="cel" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="email">E-mail*</label>
-                <input type="text" name="email" class="form-control" placeholder="tucorreo@mail.com">
-              </div>
-              <div class="checkbox">
-                <label><input type="checkbox" name="terminos"> Acepto términos y condiciones</label>
-              </div>
-              <div class="btn-enviar">
-              <button type="submit" value="Enviar" id="enviar" class="btn btn-default">Enviar</button>
-              </div>
+                <v-text-field label="Nombres y apellidos*" class="text-input" outlined dense type="text" name="first_name" placeholder=" " />
+                <v-text-field outlined dense label="Celular*" class="text-input" type="text" name="cel" placeholder=" " />
+                <v-text-field outlined dense label="E-mail*" class="text-input" type="text" name="email" placeholder=" " />
+              <v-btn type="submit" value="Enviar" id="enviar" class="success mt-2">Enviar</v-btn>
             </form>
         </div>
         </v-col>

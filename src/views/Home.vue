@@ -47,7 +47,6 @@
      </div>
     </v-carousel-item>
   </v-carousel>
-  {{currentIndex}}
   <div class="contenedorHome">
   <v-row>
     <v-col class="img-centrales-home"

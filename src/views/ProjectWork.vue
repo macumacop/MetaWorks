@@ -6,7 +6,7 @@
   <v-row class="mt-12">
     <v-col class="mb-5" v-for="(item, i) in items" :key="i" md="4" sm="6" xs="12">
       <div class="cont-img">
-      <v-img class="imagen-animada cont-img-services" width="100%" style="cursor: pointer" @click="openDialog(i)" :src="item.src"/>
+      <v-img class="imagen-animada" width="100%" style="cursor: pointer" @click="openDialog(i)" :src="item.src"/>
       </div>
       <h4
       style="cursor: pointer"

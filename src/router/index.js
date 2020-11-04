@@ -53,6 +53,11 @@ Vue.use(VueRouter)
     path: '/services/pressure',
     name: 'Pressure',
     component: () => import( '../views/Pressure.vue')
+  },
+  {
+    path: '/thanks',
+    name: 'Pressure',
+    component: () => import( '../views/thanks.vue')
   }
 ]
 
