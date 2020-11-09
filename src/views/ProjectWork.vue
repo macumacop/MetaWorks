@@ -61,7 +61,7 @@ export default {
             Nombre:"Other Steel Work Projects"
           },
           {
-            src: require('@/assets/ProjectWork/staff/staff.png'),
+            src: require('@/assets/ProjectWork/staff/staff.jpg'),
             Nombre:"Staff"
           },
           {
@@ -130,22 +130,6 @@ export default {
           }
         ]
       } else if(i == 3){
-        //Custom-Railings2
-        this.fotosDialog= [
-            {
-            src: require('@/assets/ProjectWork/Custom-Railings2/Custom-Railings-2-01.jpg')
-          },
-          {
-            src: require('@/assets/ProjectWork/Custom-Railings2/Custom-Railings-2-02.jpg')
-          },
-          {
-            src: require('@/assets/ProjectWork/Custom-Railings2/Custom-Railings-2-09.jpg')
-          },
-          {
-            src: require('@/assets/ProjectWork/Custom-Railings2/Custom-Railings-2-03.jpg')
-          }
-        ]
-      } else if(i == 4){
         //Gold-Line-Interior-Reno-Project
         this.fotosDialog= [
             {
@@ -161,7 +145,7 @@ export default {
             src: require('@/assets/ProjectWork/Gold-Line-Interior-Reno-Project/Gold-Line-Interior-Reno-Project-004.jpg')
           }
         ]
-      } else if(i == 5){
+      } else if(i == 4){
         //Other-Steel-Work-Projects
         this.fotosDialog= [
             {
@@ -177,7 +161,7 @@ export default {
             src: require('@/assets/ProjectWork/Other-Steel-Work-Projects/Other-Steel-Work-Projects-129.jpg')
           }
         ]
-      } else if(i == 6){
+      } else if(i == 5){
         //staff
         this.fotosDialog= [
             {
@@ -193,7 +177,7 @@ export default {
             src: require('@/assets/ProjectWork/staff/Workers-1.jpg')
           }
         ]
-      } else if(i == 7){
+      } else if(i == 6){
         //Stouffville-High-School-Project
         this.fotosDialog= [
             {
@@ -209,7 +193,7 @@ export default {
             src: require('@/assets/ProjectWork/Stouffville-High-School-Project/Stouffville-High-School-Project-084.jpg')
           }
         ]
-      } else if(i == 8){
+      } else if(i == 7){
         //Waterloo-University-Project
         this.fotosDialog= [
             {
@@ -225,7 +209,7 @@ export default {
             src: require('@/assets/ProjectWork/Waterloo-University-Project/Waterloo-University-Project-041.jpg')
           }
         ]
-      } else if(i == 9){
+      } else if(i == 8){
         //Work-Shop-Jobs
         this.fotosDialog= [
             {

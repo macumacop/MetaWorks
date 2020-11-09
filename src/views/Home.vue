@@ -99,7 +99,7 @@
       <!-- <v-btn class="bottom-call mt-4" to="/contact-us"><i class="fas fa-phone mr-2"></i> Contact us</v-btn> -->
     </v-col>
     <v-col md="6" sm="12">
-      <v-img class="imagen-home-lateral" src="@/assets/img/foto-home.png"></v-img>
+      <v-img class="imagen-home-lateral" src="@/assets/img/foto-home.webp"></v-img>
     </v-col>
   </v-row>
   </div>
@@ -113,19 +113,19 @@ export default {
     valueCarrousel:3,
     imgBanner: [
           {
-            src: require('@/assets/img/banner-01.png'),
+            src: require('@/assets/img/banner-01.jpg'),
             texto: "Strong structure",
             texto2: "Safe instalation",
             linkHome: "/services" 
           },
           {
-            src: require('@/assets/img/banner-02.png'),
+            src: require('@/assets/img/banner-02.jpg'),
             texto: "About Us",
             texto2: "",
             linkHome: "/about"
           },
           {
-            src: require('@/assets/img/banner-03.png'),
+            src: require('@/assets/img/banner-03.jpg'),
             texto: "Contact US",
             texto2: "",
             linkHome: "/contact-us"

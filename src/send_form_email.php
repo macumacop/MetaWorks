@@ -14,7 +14,7 @@ if(isset($_POST['email'])) {
 
  
 
-    $email_subject = "Formulario Contacto 8BitBackup";
+    $email_subject = "Formulario de Contacto FBMetalWorks";
     function died($error) {
         // mensajes de error
         echo "Lo sentimos, hubo un error en sus datos y el formulario no puede ser enviado en este momento.<br /><br />"; 

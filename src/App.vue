@@ -59,8 +59,8 @@
           >
         </div>
         <div class="text-footer">
-          <img class="imagenesFooter" src="@/assets/img/cwb-blanco.png" />
-          <img class="imagenesFooter" src="@/assets/img/tssa-blanco.png" />
+          <img class="imagenesFooter" src="@/assets/img/cwb-blanco.png" alt="cwb"/>
+          <img class="imagenesFooter" src="@/assets/img/tssa-blanco.png" alt="tssa"/>
         </div>
         <div class="text-footer">
           <span class="derechos-reserva">

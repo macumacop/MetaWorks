@@ -32,7 +32,7 @@
           <p class="tittle-form-2">We are open:</p>
           <p class="span-form">Monday - Friday 7:00 am to 5:00 pm</p>
           <p class="tittle-form-2">Email:</p>
-          <p class="span-form">fbmetalworks@outlook.com</p>
+          <p class="span-form">service@fbmetalworks.com</p>
         </v-col>
         <v-col md="6">
           <div id="formulario">

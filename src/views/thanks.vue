@@ -4,7 +4,7 @@
                 <v-img class="logo" width="70%" src="../assets/Logo-brand.jpg"></v-img>
         <v-row>
             <v-col offset="2">
-                <v-btn class="success btn-back">Come To Our Site</v-btn>
+                <v-btn class="success btn-back" onclick="window.location.href='https://fbmetalworks.com/';">Come To Our Site</v-btn>
             </v-col>
         </v-row>
     </div>
