@@ -9,7 +9,7 @@ if(isset($_POST['email'])) {
 
  
 
-    $email_to = "carloscumaco5@gmail.com";
+    $email_to = "service@fbmetalworks.com";
     //$email_to = "macgraficas1267@gmail.com";//
 
  
@@ -206,7 +206,7 @@ $headers = 'From: '.$email_from."\r\n".
 
 
 <script>
-     window.location.href='https://fbmetalworks.com/#/thanks';
+     window.location.href='https://fbmetalworks.com/thanks';
  </script>
 
  

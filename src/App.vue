@@ -55,8 +55,7 @@
             </span>
         </div>
         <div class="text-footer">
-          <span class="derechos-reserva"
-            ><i class="fas fa-envelope mr-1"></i> fbmetalworks@outlook.com</span
+          <span class="derechos-reserva"><a class="correo" href="mailto:service@fbmetalworks.com"><i class="fas fa-envelope mr-1" mailto ></i> service@fbmetalworks.com</a></span
           >
         </div>
         <div class="text-footer">
