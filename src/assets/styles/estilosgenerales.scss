@@ -436,6 +436,26 @@ fieldset{
 .v-navigation-drawer{
   position: fixed !important;
 }
+#enviar{
+  padding: 24px 60px !important;
+  background-color: #ff8800 !important;
+  color: #ffffff !important;
+  font-size: 1.2rem;
+}
+#formulario form{
+  text-align: center !important;
+}
+#formulario .theme--light.v-input input, .theme--light.v-input textarea{
+  color: #ffffff !important;
+}
+.redes{
+  color: #ffffff !important;
+  padding: 10px;
+  font-size: 1.5rem !important;
+}
+.redes :hover{
+  color: #ff8800 !important;
+}
 @media screen and (max-width: 1500px) {  
   .cont-text-banner{
     top: 100px;
@@ -526,7 +546,7 @@ fieldset{
   }
   .text-footer{
     text-align: center;
-    padding: 15px 8px;
+    padding: 15px 0px;
   }
 
 }

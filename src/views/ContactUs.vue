@@ -24,7 +24,7 @@
         <v-col md="6">
           <h2 class="tittle-form">Location & Contact Details</h2>
           <p class="tittle-form-2">Address:</p>
-          <p class="span-form">3-96 Braddock Dr. Concord ON 3-96 Brandwick Dr. Concord ON L4K 1K8</p>
+          <p class="span-form">3-96 Brandwick Dr. Concord ON L4K 1K8</p>
           <p class="tittle-form-2">Phone numbers:</p>
           <p class="span-form">Office: (416) 990-6531</p>
           <p class="tittle-form-2">Fax:</p>
@@ -37,11 +37,11 @@
         <v-col md="6">
           <div id="formulario">
             <form name="contactform" method="post" action="send_form_email.php">
-                <v-text-field label="Nombres y apellidos*" class="text-input" outlined dense type="text" name="first_name" placeholder=" " />
-                <v-text-field outlined dense label="Celular*" class="text-input" type="text" name="cel" placeholder=" " />
-                <v-text-field outlined dense label="E-mail*" class="text-input" type="text" name="email" placeholder=" " />
-                <v-text-field outlined dense label="Cuentanos" class="text-input" type="text" name="cuentanos" placeholder=" " />
-              <v-btn type="submit" value="Enviar" id="enviar" class="success mt-2">Enviar</v-btn>
+                <v-text-field label="Name" outlined name="first_name" required color="orange" ></v-text-field>
+                <v-text-field label="Phone" outlined name="cel" color="orange"></v-text-field>
+                <v-text-field label="E-mail" outlined name="email" required color="orange"></v-text-field>
+                <v-textarea outlined name="cuentanos" label="message" class="text-input" maxlength="200" color="orange" ></v-textarea>
+                <v-btn type="submit" value="Enviar" id="enviar" class="success mt-2">SEND</v-btn>
             </form>
         </div>
         </v-col>

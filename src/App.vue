@@ -48,11 +48,11 @@
     <v-footer class="footer">
       <v-row class="mw-container">
         <div class="text-footer">
-          <span class="derechos-reserva"
-            >All rights reserved © 2020<br>
-         <i class="fas fa-map-marker-alt mr-1"></i> 3-96 Braddock Dr. Concord ON 3-96 Brandwick Dr. Concord ON L4K 1K8
-            </span
-          >
+          <span class="derechos-reserva"><i class="far fa-copyright"></i> All rights reserved © 2020 </span>
+        </div>
+        <div class="text-footer">
+          <span class="derechos-reserva"><i class="fas fa-map-marker-alt mr-1"></i> 3-96 Brandwick Dr. Concord ON L4K 1K8
+            </span>
         </div>
         <div class="text-footer">
           <span class="derechos-reserva"
@@ -64,9 +64,11 @@
           <img class="imagenesFooter" src="@/assets/img/tssa-blanco.png" />
         </div>
         <div class="text-footer">
-          <span class="derechos-reserva"
-            >Follow us on <i class="fab fa-facebook ml-1"></i
-          ></span>
+          <span class="derechos-reserva">
+            Follow us on 
+            <a class="redes" href="https://www.facebook.com/FB-METAL-WORKS-116247048484063" target="_blank"><i class="fab fa-facebook ml-1"></i></a>
+            <a class="redes" href="https://instagram.com/fbmetalworks.ca?igshid=1jeujtj9h7ltx" target="_blank"><i class="fab fa-instagram"></i></a>
+          </span>
         </div>
       </v-row>
     </v-footer>
