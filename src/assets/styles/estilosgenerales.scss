@@ -16,6 +16,26 @@ p, span{
 .logo-menu img{
   width: 100%;
 }
+.carrusel-home{
+  height: 100vh !important;
+}
+.fondocss {
+  position: relative;
+  top:0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0
+  }
+.fondo-about{
+  width: 100%;
+  background-image: url('../img/fondo-about.jpg');
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
 .mw-container{
   align-items: center;
   justify-content: space-between;
@@ -57,8 +77,10 @@ p, span{
 /* estilos banner*/
 
 .cont-text-banner{
-  position: relative;
-  transform: translateY(20%);
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
 }
 .cont-text-banner h4, .cont-text-banner h5{
   text-transform: uppercase;

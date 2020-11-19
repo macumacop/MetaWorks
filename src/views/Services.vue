@@ -23,7 +23,7 @@
   </div>
   <div class="contenedorHome">
   <v-row class="mt-12">
-    <v-col v-for="(item, i) in items" :key="i" md="6" sm="12"  xs="12" class="col-services">
+    <v-col v-for="(item, i) in items" :key="i" md="4" sm="12"  xs="12" class="col-services">
       <v-img class="imagen-animada" :src="item.src" />
       <h4>{{item.Nombre}}</h4>
       <p>{{item.Descripcion}}</p>
@@ -57,12 +57,12 @@ export default {
             Descripcion:"Certified professional welders at FB Metal Work, ensure quality control of welded products, ease of technical documentation handling, rigid application of welding procedures and technical standards",
             path: '/services/steel-welding'
           },
-          {
+          /* {
             src: require('@/assets/img/services-04.png'),
             Nombre:"Pressure Vessels",
             Descripcion:"Our qualified staff have the expertise to handle and install pressure vessels accurately.",
             path: '/services/pressure'
-          },
+          }, */
         ],
   }),
     methods: { 
