@@ -52,7 +52,7 @@
     </v-carousel> -->
     <div class="video-fondo">
       <video class="fondocss" loop="loop" autoplay="autoplay">
-<source src="@/assets/video/ciudad-03.mp4" type="video/mp4">
+<source src="@/assets/video/video-home.mp4" type="video/mp4">
 </video>
     </div>
     <div class="contenedorHome">
