@@ -23,11 +23,11 @@
   </div>
   <div class="contenedorHome">
   <v-row class="mt-12">
-    <v-col v-for="(item, i) in items" :key="i" md="6" sm="12"  xs="12">
+    <v-col v-for="(item, i) in items" :key="i" md="4" sm="12"  xs="12" class="col-services">
       <v-img class="imagen-animada" :src="item.src" />
       <h4>{{item.Nombre}}</h4>
       <p>{{item.Descripcion}}</p>
-      <router-link  class="routes" :to="item.path">
+      <router-link  @click.native="scrollToTop" class="routes" :to="item.path">
       <v-btn class="buttom-more" elevation="0">More <i class="fas fa-plus"></i></v-btn>
       </router-link>
     </v-col>
@@ -40,31 +40,35 @@ export default {
   data: () => ({
     items: [
           {
-            src: require('@/assets/img/structural.png'),
+            src: require('@/assets/img/services-01.png'),
             Nombre:"Structural Steel Erectors",
             Descripcion:"Our trained team of certified professionals install steel by safety assembling rigging gear to erect and dismantle structural steel frames from buildings and other structures.",
             path: '/services/steel-erectors'
           },
           {
-            src: require('@/assets/img/reinforcement.png'),
+            src: require('@/assets/img/services-02.png'),
             Nombre:"Reinforcement",
             Descripcion:"We have been a leading force in the steel construction industry offering bar reinforcement, reinforcing wire mesh, cutting and welding proving a fast installation service int Toronto and surrounding areas.",
             path: '/services/reinforcement'
           },
           {
-            src: require('@/assets/img/structural-steel.png'),
+            src: require('@/assets/img/services-03.png'),
             Nombre:"Structural Steel Welding",
             Descripcion:"Certified professional welders at FB Metal Work, ensure quality control of welded products, ease of technical documentation handling, rigid application of welding procedures and technical standards",
             path: '/services/steel-welding'
           },
-          {
-            src: require('@/assets/img/pressure.png'),
+          /* {
+            src: require('@/assets/img/services-04.png'),
             Nombre:"Pressure Vessels",
             Descripcion:"Our qualified staff have the expertise to handle and install pressure vessels accurately.",
             path: '/services/pressure'
-          },
+          }, */
         ],
   }),
-
+    methods: { 
+      scrollToTop() {
+      window.scrollTo(0,0);
+      }
+  }
 }
 </script>

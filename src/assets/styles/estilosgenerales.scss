@@ -16,16 +16,42 @@ p, span{
 .logo-menu img{
   width: 100%;
 }
+.carrusel-home{
+  height: 100vh !important;
+}
+.fondocss {
+  position: relative;
+  top:0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: 0
+  }
+.fondo-about{
+  width: 100%;
+  background-image: url('../img/fondo-about.jpg');
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
 .mw-container{
-  max-width: 1200px;
-  margin: 0 auto !important;
   align-items: center;
+  justify-content: space-between;
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .mw-container span{
   font-size: 14px;
 }
 .toolbar, .toolbar .v-toolbar__content{
   height: 90px !important;
+}
+.toolbar{
+  background-image: url('../img/franja-menu.png');
 }
 .contenedorToolbar{
   margin: auto;
@@ -38,9 +64,9 @@ p, span{
   background-size: contain !important;
 }
 .contenedorHome{
-  max-width: 1400px;
-  margin: 0 auto;
-  margin-bottom: 30px;
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  margin-bottom: 60px !important;
   position: relative;
   padding-left: 10px;
   padding-right: 10px;
@@ -52,12 +78,12 @@ p, span{
   margin: 0 auto;
 }
 /* estilos banner*/
-.carrusel-home, .carrusel-home-imagenes, .carrusel-home-imagenes .v-image {
-  height: auto !important;
-}
+
 .cont-text-banner{
-  position: relative;
-  top: 180px;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
 }
 .cont-text-banner h4, .cont-text-banner h5{
   text-transform: uppercase;
@@ -107,6 +133,9 @@ p, span{
   text-align: center;
   align-items: center;
 }
+.text-footer{
+  text-align: left;
+}
 .text-footer span{
   padding: 0 20px;
   color: #ffffff !important;
@@ -117,14 +146,16 @@ p, span{
 }
 .derechos-reserva{
   color: #fff;
+  text-align: left;
 }
 .bgImage{
   width: 100%;
-  background-image: url('../ContactUs/Grupo42.png');
+  background-image: url('../ContactUs/Grupo42.webp');
   background-size: cover;
   padding: 60px 0px;
   margin-bottom: 60px;
 }
+
 .expansionPanel{
   padding: 0 200px !important;
 }
@@ -206,23 +237,28 @@ display: inline-block !important;
   }
   .handler-carrousel{
     position: absolute;
-    width: 100px;   
+    width: 53px;   
     height: 100px;
     z-index: 1;
     right: 20px;
-    bottom: 200px;
+    transform: translateY(-50%);
+    top: 50%;
+    display: inline-table;
   }
   
   .handler-carrousel .banner-router{
     z-index: 1000;
     display: block;
     padding: 10px;
-    color: red !important;
     cursor: pointer;
   }
-  .handler-carrousel .banner-router.active{   
+  .handler-carrousel .banner-router.active span{   
     font-size: 50px;
-    color: blue !important;
+    color: #ffa500 !important;
+    text-shadow: 2px 1.5px 2px rgba(0, 0, 0, 0.6);
+  }
+  .banner-router span{
+    color: #000000 !important;
   }
   .links-home{
     text-decoration: none;
@@ -231,9 +267,6 @@ display: inline-block !important;
   .siguiente{
     color: #ffa500;
     padding-left: 8px;
-  }
-.v-responsive__content:hover .v-image__image--cover{
-    background-size: 110% !important;
   }
   .bottom-call{
     width: 250px !important;
@@ -252,10 +285,10 @@ display: inline-block !important;
   }
 /*Estilos servicios*/
 .col-services{
-  padding: 55px !important;
+  padding: 40px 60px !important;
 }
-.cont-img-services{
-padding-bottom: 30px;
+.col-services .v-image{
+  margin-bottom: 30px !important;
 }
 .cabezote{
   background-image: url("../img/3109.jpg");
@@ -378,7 +411,12 @@ padding-bottom: 30px;
   display: table;
   clear: both;
 }
-
+.v-label{
+  color: #fff !important;
+}
+fieldset{
+  border-color: #fff !important;
+}
 /* Six columns side by side */
 .column {
   float: left;
@@ -404,19 +442,17 @@ padding-bottom: 30px;
   color:#FFAA00 !important;
 }
 .imagen-animada{
-  transform: scale(0.95);
+  transform: scale(1);
   transition: transform .2s;
 }
 .imagen-animada:hover{
-  transform: scale(1);
+  transform: scale(1.1);
 }
 .cont-img{
-  max-height: 264px;
+  max-height: 274px;
   overflow: hidden;
 }
-.v-image__image--cover{
-  background-size: contain !important ;
-}
+
 .v-dialog{
   box-shadow: inherit !important;
 }
@@ -426,6 +462,30 @@ padding-bottom: 30px;
 .v-navigation-drawer{
   position: fixed !important;
 }
+#enviar{
+  padding: 24px 60px !important;
+  background-color: #ff8800 !important;
+  color: #ffffff !important;
+  font-size: 1.2rem;
+}
+#formulario form{
+  text-align: center !important;
+}
+#formulario .theme--light.v-input input, .theme--light.v-input textarea{
+  color: #ffffff !important;
+}
+.redes{
+  color: #ffffff !important;
+  padding: 10px;
+  font-size: 1.5rem !important;
+}
+.redes:hover, .correo:hover{
+  color: #ff8800 !important;
+}
+.correo{
+  color: #ffffff !important;
+  text-decoration: none;
+}
 @media screen and (max-width: 1500px) {  
   .cont-text-banner{
     top: 100px;
@@ -433,6 +493,30 @@ padding-bottom: 30px;
   }
 }
 @media (max-width: 1050px) {
+  .carrusel-home, .carrusel-home-imagenes, .carrusel-home-imagenes .v-image {
+    height: 350px !important;
+  }
+  .handler-carrousel{
+    position: absolute;
+    width: 100%;   
+    height: 40px;
+    z-index: 1;
+    bottom: 0px;
+    display: inline-table;
+    right: inherit;
+    transform: inherit !important;
+    top: inherit !important;
+    text-align: center;
+  }
+  .handler-carrousel .banner-router{
+    z-index: 10;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .handler-carrousel .banner-router.active span{   
+    font-size: 30px;
+  }
   .expansionPanel{
     padding: 20px !important;
     top: 0px;
@@ -463,6 +547,9 @@ padding-bottom: 30px;
   }
 }
 @media screen and (max-width: 560px) {
+  .carrusel-home, .carrusel-home-imagenes, .carrusel-home-imagenes .v-image {
+    height: 280px !important;
+  }
   .cont-text-banner{
     left: 0px;
     width: 100%;
@@ -483,6 +570,13 @@ padding-bottom: 30px;
   }
   .contenedorHome{
     margin-bottom: 30px;
+  }
+  .mw-container{
+    display: block !important;
+  }
+  .text-footer{
+    text-align: center;
+    padding: 15px 0px;
   }
 
 }
