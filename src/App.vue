@@ -96,7 +96,7 @@ export default {
       {to: '/', text: 'HOME', class: 'fas fa-home'},
       {to: '/about-us', text: 'ABOUT US', class: 'fas fa-address-card'},
       {to: '/services', text: 'SERVICES', class: 'fas fa-tasks'},
-      {to: '/project-work', text: 'PROJECT WORK', class: 'fas fa-briefcase'},
+      {to: '/project-work', text: 'PROJECT', class: 'fas fa-briefcase'},
       /* {to: '/faqs', text: 'FAQS', class: 'fas fa-question'}, */
       {to: '/contact-us', text: 'CONTACT US', class: 'far fa-envelope-open'}
       ]

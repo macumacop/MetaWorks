@@ -1,7 +1,7 @@
 <template>
 <v-main class="main">
   <div class="contenedorHome mt-12">
-    <h4 class="titulos-home">PROJECT WORK</h4>
+    <h4 class="titulos-home">PROJECT</h4>
     <div class="divisor-titulos"></div>
   <v-row class="mt-12">
     <v-col class="mb-5" v-for="(item, i) in items" :key="i" md="4" sm="6" xs="12">

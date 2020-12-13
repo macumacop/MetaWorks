@@ -91,19 +91,6 @@
           else if (window.document.msExitFullscreen) window.document.msExitFullscreen();
           break;
       }
-<<<<<<< HEAD
-      
-      </script>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
-</html>
-=======
       var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
       if (isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
         var urls = { "docurl": encodeURIComponent(document.URL), "referrer": encodeURIComponent(document.referrer) };
@@ -134,4 +121,3 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </body>
 
 </html>
->>>>>>> e4f9315c80859ed50341b217ac4f2032b25297e6

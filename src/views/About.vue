@@ -13,7 +13,7 @@
       <p class="parrafos-home">FB Metal Work are also active members of the Technical Standards & Safety Authority (TSSA) and Certified by The Canadian Welding Bureau (CWB).</p>      
     </v-col>
     <v-col md="6" xs="12" sm="12">
-      <v-img class="imagen-home-lateral" src="@/assets/img/foto-home.webp"></v-img>
+      <v-img class="imagen-home-lateral" src="@/assets/img/foto-home.png"></v-img>
     </v-col>
   </v-row>
   </div>

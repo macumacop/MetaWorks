@@ -128,7 +128,7 @@
         <v-col md="6" sm="12">
           <v-img
             class="imagen-home-lateral"
-            src="@/assets/img/foto-home.webp"
+            src="@/assets/img/foto-home.png"
           ></v-img>
         </v-col>
       </v-row>
